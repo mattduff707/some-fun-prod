@@ -29,14 +29,26 @@ module.exports = {
         lg: "1.25rem",
         xl: "1.5rem",
       },
+      maxWidth: {
+        constraint: "1200px",
+      },
       keyframes: {
         loud: {
           "0%, 100%": { fontSize: "24px" },
           "50%": { fontSize: "32px" },
         },
+        rotation: {
+          "0%": {
+            transform: "rotate(0deg)",
+          },
+          "100%": {
+            transform: "rotate(360deg)",
+          },
+        },
       },
       animation: {
         loud: "loud 0.4s ease forwards",
+        rotation: "rotation 24s linear infinite",
       },
     },
   },
