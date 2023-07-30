@@ -29,6 +29,15 @@ module.exports = {
         lg: "1.25rem",
         xl: "1.5rem",
       },
+      keyframes: {
+        loud: {
+          "0%, 100%": { fontSize: "24px" },
+          "50%": { fontSize: "32px" },
+        },
+      },
+      animation: {
+        loud: "loud 0.4s ease forwards",
+      },
     },
   },
   plugins: [],
