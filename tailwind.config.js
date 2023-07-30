@@ -38,17 +38,18 @@ module.exports = {
           "50%": { fontSize: "32px" },
         },
         rotation: {
-          "0%": {
-            transform: "rotate(0deg)",
-          },
-          "100%": {
-            transform: "rotate(360deg)",
+          to: { transform: "rotate(360deg)" },
+        },
+        shadowRotation: {
+          to: {
+            transform: "rotate(360deg) rotate(-360deg)",
           },
         },
       },
       animation: {
         loud: "loud 0.4s ease forwards",
         rotation: "rotation 24s linear infinite",
+        shadowRotation: "shadowRotation 24s linear infinite",
       },
     },
   },
