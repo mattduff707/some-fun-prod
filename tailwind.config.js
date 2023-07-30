@@ -14,6 +14,7 @@ module.exports = {
       dijon: "#ECC690",
       seawater: "#658E87",
       seaweed: "#33524C",
+      landingBg: "#FFFFFA",
     },
     dropShadow: {
       svg: "0px 0.75px 0px #ECC690",
@@ -28,6 +29,12 @@ module.exports = {
         base: "1rem",
         lg: "1.25rem",
         xl: "1.5rem",
+      },
+      backgroundImage: {
+        landing: `url(/landingBg.png)`,
+      },
+      translate: {
+        center: "-50%, -50%",
       },
       maxWidth: {
         constraint: "1200px",
