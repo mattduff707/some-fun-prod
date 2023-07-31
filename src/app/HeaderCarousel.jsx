@@ -6,7 +6,7 @@ const item =
 
 const HeaderCarousel = () => {
   return (
-    <div className="py-2 w-full overflow-visible bg-seaweed">
+    <div className="py-2 w-full overflow-hidden bg-seaweed">
       <div className="flex items-center font-bold animate-slowSlide w-[3660px]">
         <p className={`${item}`}>
           <SimpleStar />

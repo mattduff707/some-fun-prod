@@ -43,10 +43,12 @@ const navItem = "px-6 py-2";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${kumbh.variable} ${marshland.variable} font-sans`}>
+      <body
+        className={`${kumbh.variable} ${marshland.variable} font-sans isolate`}
+      >
         <HeaderCarousel />
-        <header className="sticky top-0">
-          <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing">
+        <header className="sticky top-0 z-40">
+          <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing bg-landingBg">
             <ul className="flex text-seaweed font-medium">
               <li className={`${navItem}`}>HOME</li>
               <li className={`${navItem}`}>SERVICES</li>

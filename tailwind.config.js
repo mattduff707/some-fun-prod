@@ -8,10 +8,12 @@ module.exports = {
   theme: {
     colors: {
       pale: "#F9EFE1",
+      pinky: "#F6E2D6",
       fluff: "#F4D8CD",
       burnt: "#CE6f50",
       burntDark: "#CE6243",
       dijon: "#ECC690",
+      darkDijon: "#C69248",
       seawater: "#658E87",
       seaweed: "#33524C",
       landingBg: "#FFFFFA",
@@ -32,6 +34,9 @@ module.exports = {
       },
       backgroundImage: {
         landing: `url(/landingBg.png)`,
+        rainbow: `url(/rainbowSquiggle.png)`,
+        greenSquiggle: `url(/greenSquiggle.png)`,
+        pinkSquiggle: `url(/pinkSquiggle.png)`,
       },
       translate: {
         center: "-50%, -50%",
@@ -59,8 +64,8 @@ module.exports = {
       },
       animation: {
         loud: "loud 0.4s ease forwards",
-        rotation: "rotation 24s linear infinite",
-        shadowRotation: "shadowRotation 24s linear infinite",
+        rotation: "rotation 28s linear infinite",
+        shadowRotation: "shadowRotation 28s linear infinite",
         slowSlide: "slowSlide 60s linear infinite",
       },
     },
