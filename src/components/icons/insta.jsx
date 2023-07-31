@@ -8,6 +8,7 @@ function Insta() {
       height="21"
       fill="none"
       viewBox="0 0 22 21"
+      className="w-[34px] h-[34px]"
     >
       <path
         fill="#33524C"

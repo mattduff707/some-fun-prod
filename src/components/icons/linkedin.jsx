@@ -8,6 +8,7 @@ function Linkedin() {
       height="21"
       fill="none"
       viewBox="0 0 21 21"
+      className="w-[28px] h-[28px]"
     >
       <path
         fill="#fff"

@@ -40,6 +40,10 @@ module.exports = {
         constraint: "1200px",
       },
       keyframes: {
+        slowSlide: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-1830px)" },
+        },
         loud: {
           "0%, 100%": { fontSize: "24px" },
           "50%": { fontSize: "32px" },
@@ -57,6 +61,7 @@ module.exports = {
         loud: "loud 0.4s ease forwards",
         rotation: "rotation 24s linear infinite",
         shadowRotation: "shadowRotation 24s linear infinite",
+        slowSlide: "slowSlide 60s linear infinite",
       },
     },
   },

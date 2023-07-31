@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import logoHeader from "../assets/somefunLogoHeader.png";
 import Insta from "@/components/icons/insta";
 import Linkedin from "@/components/icons/linkedin";
+import HeaderCarousel from "./HeaderCarousel";
 
 const kumbh = localFont({
   src: [
@@ -43,11 +44,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${kumbh.variable} ${marshland.variable} font-sans`}>
-        <div className="flex items-center py-2 w-full bg-seaweed font-bold">
-          <p className="text-[#FFF] tracking-widest">
-            NOW BOOKING PROJECTS FOR 2023
-          </p>
-        </div>
+        <HeaderCarousel />
         <header className="sticky top-0">
           <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing">
             <ul className="flex text-seaweed font-medium">
@@ -61,7 +58,7 @@ export default function RootLayout({ children }) {
               src={logoHeader}
               alt="some fun logo"
             />
-            <div className="flex gap-4">
+            <div className="flex items-center gap-4">
               <Linkedin />
               <Insta />
             </div>
