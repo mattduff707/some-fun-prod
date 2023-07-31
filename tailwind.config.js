@@ -68,6 +68,9 @@ module.exports = {
         shadowRotation: "shadowRotation 28s linear infinite",
         slowSlide: "slowSlide 60s linear infinite",
       },
+      boxShadow: {
+        main: "0px 0px 0px 8px #CE6F50",
+      }
     },
   },
   plugins: [],

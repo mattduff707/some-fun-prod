@@ -66,8 +66,9 @@ export default function RootLayout({ children }) {
             </div>
           </nav>
         </header>
-
+        <div className="flex justify-center bg-pale">
         {children}
+        </div>
       </body>
     </html>
   );
