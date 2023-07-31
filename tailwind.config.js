@@ -42,7 +42,7 @@ module.exports = {
         center: "-50%, -50%",
       },
       maxWidth: {
-        constraint: "1200px",
+        constraint: "1400px",
       },
       keyframes: {
         slowSlide: {

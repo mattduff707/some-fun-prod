@@ -6,7 +6,7 @@ import Stack from "./Stack";
 
 export default function Home() {
   return (
-    <main className="bg-landingBg relative isolate w-full max-w-[1920px] shadow-[0px_0px_0px_8px_#CE6f50,0px_0px_8px_8px_#000]">
+    <main className="bg-landingBg relative isolate w-full max-w-[1920px] shadow-[0px_0px_0px_8px_#CE6f50,0px_0px_10px_10px_hsl(36deg,24%,58%)]">
       <Landing />
       <General />
       <Stack />
