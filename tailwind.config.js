@@ -70,6 +70,20 @@ module.exports = {
       },
       boxShadow: {
         main: "0px 0px 0px 8px #CE6F50",
+        box: `0px 0.1px 0.1px,
+              0px 0.6px 0.7px -0.4px,
+              0px 1px 1.1px -0.7px,
+              0.1px 1.7px 1.9px -1.1px,
+              0.1px 2.7px 3px -1.4px,
+              0.2px 4.2px 4.7px -1.8px,
+              0.2px 6.4px 7.2px -2.1px,
+              0.4px 9.5px 10.7px -2.5px`
+      },
+      boxShadowColor: {
+        seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
+      },
+      borderRadius: {
+        box: "30px"
       }
     },
   },
