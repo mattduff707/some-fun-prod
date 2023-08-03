@@ -9,7 +9,7 @@ import Star from "@/components/Star";
 
 const General = () => {
   return (
-    <section className="bg-seaweed max-w-full overflow-hidden relative flex flex-col items-center pb-[212px] pt-[24px]">
+    <section className="bg-seaweed max-w-full overflow-hidden relative flex flex-col items-center pb-[252px] pt-[48px]">
       <div className="max-w-[1000px] w-full pt-10 flex flex-col items-start isolate">
         <Box
           boxClass={
@@ -37,11 +37,15 @@ const General = () => {
         </Box>
         <div className="flex w-full justify-center">
           <div className="relative translate-y-[140px] translate-x-[16px]">
-            <Star
-              className={
-                "w-[180px] h-[180px] absolute bottom-[-40px] left-[-60px] z-10"
-              }
-            />
+            <div className="absolute bottom-[-40px] left-[-60px] z-10">
+              <div className="relative">
+                <p className="font-marshland text-burntDark absolute z-30 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[0.85rem] rotate-[-12deg] text-center">
+                  THE
+                  <br /> DESIGNER
+                </p>
+                <Star className={"w-[180px] h-[180px] "} />
+              </div>
+            </div>
             <Image
               src={alissaPic}
               alt="Alissa holding a paint up when she was a child"
@@ -49,11 +53,15 @@ const General = () => {
             />
           </div>
           <div className="relative translate-y-[-120px] z-20">
-            <Star
-              className={
-                "w-[180px] h-[180px] absolute top-[-20px] right-[-60px] z-10"
-              }
-            />
+            <div className="absolute top-[-20px] right-[-60px] z-10">
+              <div className="relative">
+                <p className="font-marshland text-burntDark absolute z-30 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-[0.80rem] rotate-[11deg] text-center">
+                  THE
+                  <br /> DEVELOPER
+                </p>
+                <Star className={"w-[180px] h-[180px] "} />
+              </div>
+            </div>
             <Image
               src={mattPic}
               alt="Matt on a computer playing a game when he was a child"
