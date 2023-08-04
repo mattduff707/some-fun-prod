@@ -9,8 +9,8 @@ import Star from "@/components/Star";
 
 const General = () => {
   return (
-    <section className="bg-seaweed max-w-full overflow-hidden relative flex flex-col items-center pb-[252px] pt-[48px]">
-      <div className="max-w-constraint w-full pt-10 flex flex-col items-start isolate">
+    <section className="bg-seaweed max-w-full overflow-hidden relative flex flex-col items-center pb-pageBottom pt-pageTop">
+      <div className="max-w-constraint w-full flex flex-col items-start isolate">
         <Box
           boxClass={
             "shadow-seaweedShadow border-seaweed bg-pale pt-10 px-12 pb-14 relative z-10"

@@ -81,9 +81,14 @@ module.exports = {
       },
       boxShadowColor: {
         seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
+        pinkyShadow: "hsla(23deg, 25%, 56%, 0.36)",
       },
       borderRadius: {
         box: "30px",
+      },
+      padding: {
+        pageTop: "88px",
+        pageBottom: "252px",
       },
     },
   },
