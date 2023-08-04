@@ -1,6 +1,7 @@
 import Box from "@/components/Box";
 import Title from "@/components/Title";
 import React from "react";
+import SkillStack from "./SkillStack";
 
 const Stack = () => {
   return (
@@ -9,6 +10,20 @@ const Stack = () => {
         <Title boxClass="border-burnt bg-pale shadow-pinkyShadow">
           SKILL STACK
         </Title>
+        <div className="flex gap-2 py-20">
+          <SkillStack
+            title="BRANDING"
+            items={["IDENTITY", "STRATEGY", "MARKETING"]}
+          />
+          <SkillStack
+            title="DESIGNING"
+            items={["WEBSITES", "UX/PRODUCT", "GRAPHICS"]}
+          />
+          <SkillStack
+            title="BUILDING"
+            items={["RESPONSIVE WEB", "SYSTEMS", "ECOMMERCE"]}
+          />
+        </div>
       </div>
       <div className="w-full h-[76px] bg-darkDijon absolute bottom-0"></div>
       <div

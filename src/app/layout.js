@@ -32,6 +32,15 @@ const marshland = localFont({
   ],
   variable: "--font-marshland",
 });
+const bavistage = localFont({
+  src: [
+    {
+      path: "../../public/fonts/bavistage/bavistage.otf",
+      weight: "400",
+    },
+  ],
+  variable: "--font-bavistage",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -44,7 +53,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${kumbh.variable} ${marshland.variable} font-sans isolate`}
+        className={`${kumbh.variable} ${marshland.variable} ${bavistage.variable} font-sans isolate`}
       >
         <HeaderCarousel />
         <header className="sticky top-0 z-40">
@@ -66,9 +75,7 @@ export default function RootLayout({ children }) {
             </div>
           </nav>
         </header>
-        <div className="flex justify-center bg-pale">
-        {children}
-        </div>
+        <div className="flex justify-center bg-pale">{children}</div>
       </body>
     </html>
   );

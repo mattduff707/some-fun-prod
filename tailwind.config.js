@@ -25,12 +25,15 @@ module.exports = {
       fontFamily: {
         sans: [`var(--font-kumbh)`, "sans"],
         marshland: [`var(--font-marshland)`, "sans"],
+        bavistage: [`var(--font-bavistage)`, "sans"],
       },
       fontSize: {
         sm: "0.875rem",
         base: "1rem",
         lg: "1.25rem",
         xl: "1.5rem",
+        xxl: "2rem",
+        xxxl: "2.5rem",
       },
       backgroundImage: {
         landing: `url(/landingBg.png)`,
