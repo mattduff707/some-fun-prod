@@ -42,7 +42,7 @@ module.exports = {
         center: "-50%, -50%",
       },
       maxWidth: {
-        constraint: "1400px",
+        constraint: "1000px",
       },
       keyframes: {
         slowSlide: {
@@ -77,14 +77,14 @@ module.exports = {
               0.1px 2.7px 3px -1.4px,
               0.2px 4.2px 4.7px -1.8px,
               0.2px 6.4px 7.2px -2.1px,
-              0.4px 9.5px 10.7px -2.5px`
+              0.4px 9.5px 10.7px -2.5px`,
       },
       boxShadowColor: {
         seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
       },
       borderRadius: {
-        box: "30px"
-      }
+        box: "30px",
+      },
     },
   },
   plugins: [],

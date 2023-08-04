@@ -5,7 +5,7 @@ import React from "react";
 const Landing = () => {
   return (
     <section className="w-full bg-landing flex flex-col items-center max-w-full overflow-hidden relative h-[100vh]">
-      <div className="flex justify-center w-full max-w-constraint h-full pb-[200px] items-center">
+      <div className="flex justify-center w-full max-w-[1400px] h-full pb-[200px] items-center">
         <LandingSvg />
       </div>
       <div className="w-full h-[140px] bg-seaweed absolute bottom-0"></div>
