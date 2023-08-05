@@ -1,11 +1,13 @@
 import React from "react";
 
-const SkillStack = ({ title, items }) => {
+const SkillStack = ({ title, items, wrapClass }) => {
   const firstLetter = title.charAt(0);
   const restOfTitle = title.slice(1);
 
   return (
-    <div className="  w-[350px] h-[314px] flex flex-col rounded-[30px] shadow-box shadow-pinkyShadow">
+    <div
+      className={`w-[350px] h-[314px] flex flex-col rounded-[30px] shadow-box shadow-[hsla(0,0%,20%,0.2)] ${wrapClass}`}
+    >
       <div className="w-full flex-1 bg-pale border-8 border-burnt rounded-[30px_30px_0px_0px] grid place-items-center">
         <h3 className="text-center font-black text-burnt text-xxl">
           <span className="font-bavistage font-medium text-[3.2rem]">

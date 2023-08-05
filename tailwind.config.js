@@ -37,6 +37,7 @@ module.exports = {
       },
       backgroundImage: {
         landing: `url(/landingBg.png)`,
+        stack: "url(/starBg.png)",
         rainbow: `url(/rainbowSquiggle.png)`,
         greenSquiggle: `url(/greenSquiggle.png)`,
         pinkSquiggle: `url(/pinkSquiggle.png)`,
