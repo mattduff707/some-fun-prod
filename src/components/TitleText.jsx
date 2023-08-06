@@ -19,7 +19,7 @@ const TitleText = ({ titleClass, children }) => {
         <text
           x="80"
           y="60"
-          className={`font font-sans font-black text-[48px] fill-burntDark stroke-pale stroke-[2px] tracking-tighter`}
+          className={`font font-sans font-black text-[48px] fill-burntDark stroke-pale stroke-[2px] tracking-tighter ${titleClass}`}
         >
           {children}
         </text>

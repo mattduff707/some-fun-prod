@@ -3,6 +3,7 @@ import Image from "next/image";
 import Landing from "./Landing";
 import General from "./General";
 import Stack from "./Stack";
+import Work from "./Work";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Landing />
       <General />
       <Stack />
+      <Work />
     </main>
   );
 }

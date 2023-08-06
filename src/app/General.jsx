@@ -83,10 +83,7 @@ const General = () => {
           </p>
         </Box>
       </div>
-      <div
-        style={{ backgroundImage: "url(/starBg.png)" }}
-        className="w-full h-[82px] bg-fluff absolute bottom-0"
-      ></div>
+      <div className="w-full h-[82px] bg-fluff absolute bottom-0"></div>
       <div
         alt=""
         className="absolute bottom-0 inline-block w-[1920px] h-[142px] bg-greenSquiggle bg-auto bg-center"
