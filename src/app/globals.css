@@ -68,3 +68,15 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+.navPath {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  transition: all 0.5s ease;
+  /* transform: rotate(180deg); */
+  transform-origin: center;
+}
+
+.navItem:hover .navPath {
+  stroke-dashoffset: 1228;
+}

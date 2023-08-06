@@ -17,6 +17,8 @@ module.exports = {
       seawater: "#658E87",
       seaweed: "#33524C",
       landingBg: "#FFFFFA",
+      strokePinky: "#edc4ab",
+      strokeDijon: "",
     },
     dropShadow: {
       svg: "0px 0.75px 0px #ECC690",
