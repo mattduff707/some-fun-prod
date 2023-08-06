@@ -76,6 +76,9 @@ h6 {
   /* transform: rotate(180deg); */
   transform-origin: center;
 }
+.navItemServices {
+  stroke-width: 20;
+}
 
 .navItem:hover .navPath {
   stroke-dashoffset: 1228;

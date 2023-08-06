@@ -59,7 +59,9 @@ export default function RootLayout({ children }) {
           <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing bg-landingBg">
             <ul className="flex text-seaweed font-medium">
               <NavItem pathClass="stroke-burnt">HOME</NavItem>
-              <NavItem pathClass="stroke-strokePinky">SERVICES</NavItem>
+              <NavItem pathClass="stroke-strokePinky navItemServices">
+                SERVICES
+              </NavItem>
               <NavItem pathClass="stroke-darkDijon">WORK</NavItem>
               <NavItem pathClass="stroke-seaweed">ABOUT</NavItem>
             </ul>
