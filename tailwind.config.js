@@ -56,8 +56,8 @@ module.exports = {
           "100%": { transform: "translateX(-1830px)" },
         },
         loud: {
-          "0%, 100%": { fontSize: "24px" },
-          "50%": { fontSize: "32px" },
+          "0%, 100%": { fontSize: "1.5rem" },
+          "50%": { fontSize: "2rem" },
         },
         rotation: {
           to: { transform: "rotate(360deg)" },
