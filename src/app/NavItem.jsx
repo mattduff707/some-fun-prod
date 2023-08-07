@@ -8,8 +8,8 @@ const NavItem = ({ children, pathClass }) => {
     >
       <span className="relative block">
         {children}
-        <div className="absolute bottom-[-6px] left-[50%] translate-x-[-50%] w-full overflow-hidden">
-          <Underline className={""} pathClass={pathClass} />
+        <div className="absolute bottom-[-6px] left-[50%] translate-x-[-50%] w-full">
+          <Underline className={"overflow-visible"} pathClass={pathClass} />
         </div>
       </span>
     </li>
