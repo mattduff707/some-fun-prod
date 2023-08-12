@@ -58,12 +58,14 @@ export default function RootLayout({ children }) {
         <header className="sticky top-0 z-40">
           <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing bg-landingBg">
             <ul className="flex text-seaweed font-medium">
-              <NavItem pathClass="stroke-burnt">HOME</NavItem>
-              <NavItem pathClass="stroke-strokePinky navItemServices">
-                SERVICES
-              </NavItem>
-              <NavItem pathClass="stroke-darkDijon">WORK</NavItem>
-              <NavItem pathClass="stroke-seaweed">ABOUT</NavItem>
+              <NavItem pathClass="stroke-burnt" text="HOME" path="/" exact />
+              <NavItem
+                pathClass="stroke-strokePinky navItemServices"
+                text="SERVICES"
+                path="/services"
+              />
+              <NavItem pathClass="stroke-darkDijon" text="WORK" path="/work" />
+              <NavItem pathClass="stroke-seaweed" text="ABOUT" path="/about" />
             </ul>
             <Image
               className="w-[164px] h-auto absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"

@@ -1,6 +1,6 @@
 import React from "react";
 
-function Underline({ className, pathClass }) {
+function Underline({ className, pathClass, isActive }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +10,7 @@ function Underline({ className, pathClass }) {
     >
       <path
         className={`${pathClass}  navPath`}
+        style={{ strokeDashoffset: isActive ? 1220 : undefined }}
         stroke="black"
         strokeOpacity={1}
         strokeWidth={28}
