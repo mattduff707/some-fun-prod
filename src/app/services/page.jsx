@@ -32,30 +32,66 @@ const Services = () => {
         <div className="flex flex-col justify-between w-full mt-12 px-12 items-center gap-12 900:gap-0 900:items-end 900:flex-row ">
           <div className="flex flex-col gap-6 items-center">
             <Image src={designIcon} alt="" width={161} height={189} />
-            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+            <BoxBtn
+              buttonClass={
+                "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
+              }
+              shadowClass={"bg-burnt"}
+            >
+              <FancyText
+                text={"DESIGNING"}
+                wordClass={"translate-y-[-2px]"}
+                letterClass={"translate-y-[4px] text-xxxl"}
+              />
+            </BoxBtn>
+            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black translate-y-[-2px]">
                 <FancyText
                   text={"DESIGNING"}
                   letterClass={"translate-y-[4px] text-xxxl"}
                 />
               </p>
-            </Box>
+            </Box> */}
           </div>
           <div className="flex flex-col gap-6 items-center">
             <Image src={buildIcon} alt="" width={217} height={159} />
-            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+            <BoxBtn
+              buttonClass={
+                "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
+              }
+              shadowClass={"bg-burnt"}
+            >
+              <FancyText
+                text={"BUILDING"}
+                wordClass={"translate-y-[-2px]"}
+                letterClass={"text-xxxl"}
+              />
+            </BoxBtn>
+            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black translate-y-[-2px]">
                 <FancyText text={"BUILDING"} letterClass={"text-xxxl"} />
               </p>
-            </Box>
+            </Box> */}
           </div>
           <div className="flex flex-col gap-6 items-center">
             <Image src={brandingIcon} alt="" width={195} height={196} />
-            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+            <BoxBtn
+              buttonClass={
+                "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
+              }
+              shadowClass={"bg-burnt"}
+            >
+              <FancyText
+                text={"BRANDING"}
+                wordClass={"translate-y-[-2px]"}
+                letterClass={"text-xxxl"}
+              />
+            </BoxBtn>
+            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black  translate-y-[-2px]">
                 <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />
               </p>
-            </Box>
+            </Box> */}
           </div>
         </div>
         <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale relative">
