@@ -1,8 +1,8 @@
-import Box from "@/components/Box";
-import Title from "@/components/Title";
+import Box from "../components/Box";
+import Title from "../components/Title";
 import React from "react";
 import SkillStack from "./SkillStack";
-import Highlight from "@/components/Highlight";
+import Highlight from "../components/Highlight";
 
 const Stack = () => {
   return (

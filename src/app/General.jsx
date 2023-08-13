@@ -1,11 +1,11 @@
-import Box from "@/components/Box";
-import BoxBtn from "@/components/BoxBtn";
+import Box from "../components/Box";
+import BoxBtn from "..//components/BoxBtn";
 import Image from "next/image";
 import React from "react";
 import alissaPic from "../assets/alissaPic.png";
 import mattPic from "../assets/mattPic.png";
-import Highlight from "@/components/Highlight";
-import Star from "@/components/Star";
+import Highlight from "../components/Highlight";
+import Star from "../components/Star";
 
 const General = () => {
   return (

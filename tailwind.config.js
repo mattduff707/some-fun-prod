@@ -88,6 +88,7 @@ module.exports = {
       boxShadowColor: {
         seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
         pinkyShadow: "hsla(23deg, 25%, 56%, 0.36)",
+        fluffShadow: "hsla(17deg, 27%, 55%, 0.36)",
       },
       borderRadius: {
         box: "30px",

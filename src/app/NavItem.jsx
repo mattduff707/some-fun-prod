@@ -1,9 +1,9 @@
 "use client";
-import Underline from "@/components/icons/Underline";
+import Underline from "../components/icons/Underline";
 import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { tokens } from "@/constants";
+import { tokens } from "../constants";
 
 const NavItem = ({ text, path, pathClass, exact }) => {
   const pathname = usePathname();

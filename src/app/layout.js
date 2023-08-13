@@ -2,8 +2,8 @@ import Image from "next/image";
 import "./globals.css";
 import localFont from "next/font/local";
 import logoHeader from "../assets/somefunLogoHeader.png";
-import Insta from "@/components/icons/insta";
-import Linkedin from "@/components/icons/linkedin";
+import Insta from "../components/icons/insta";
+import Linkedin from "../components/icons/linkedin";
 import HeaderCarousel from "./HeaderCarousel";
 import NavItem from "./NavItem";
 
@@ -78,7 +78,7 @@ export default function RootLayout({ children }) {
             </div>
           </nav>
         </header>
-        <div className="flex justify-center bg-pale">{children}</div>
+        <main className="flex justify-center bg-pale">{children}</main>
       </body>
     </html>
   );

@@ -1,4 +1,4 @@
-import SimpleStar from "@/components/icons/simpleStar";
+import SimpleStar from "../components/icons/simpleStar";
 import React from "react";
 
 const item =

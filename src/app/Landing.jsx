@@ -1,4 +1,4 @@
-import LandingSvg from "@/components/LandingSvg";
+import LandingSvg from "..//components/LandingSvg";
 import Image from "next/image";
 import React from "react";
 
