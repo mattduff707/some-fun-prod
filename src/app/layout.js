@@ -6,6 +6,7 @@ import Insta from "../components/icons/insta";
 import Linkedin from "../components/icons/linkedin";
 import HeaderCarousel from "./HeaderCarousel";
 import NavItem from "./NavItem";
+import Footer from "./Footer.jsx";
 
 const kumbh = localFont({
   src: [
@@ -79,6 +80,7 @@ export default function RootLayout({ children }) {
           </nav>
         </header>
         <main className="flex justify-center bg-pale">{children}</main>
+        <Footer />
       </body>
     </html>
   );

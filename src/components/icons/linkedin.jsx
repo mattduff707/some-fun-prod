@@ -1,6 +1,6 @@
 import React from "react";
 
-function Linkedin() {
+function Linkedin({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ function Linkedin() {
       height="21"
       fill="none"
       viewBox="0 0 21 21"
-      className="w-[28px] h-[28px]"
+      className={`w-[28px] h-[28px] ${className}`}
     >
       <path
         fill="#fff"

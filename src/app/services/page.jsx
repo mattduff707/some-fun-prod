@@ -15,7 +15,7 @@ const Services = () => {
         <div className="w-[640px] h-[132px] pt-12">
           <TitleText titleClass="translate-x-[32px]">SERVICES</TitleText>
         </div>
-        <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale">
+        <Box boxClass="p-12 pt-8 border-burnt mt-16 shadow-fluffShadow bg-pale">
           <h2 className="text-burntDark font-bold text-xl mb-2">
             Let&#39;s bring your vision to life!
           </h2>
