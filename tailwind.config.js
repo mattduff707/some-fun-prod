@@ -46,6 +46,7 @@ module.exports = {
         rainbow: `url(/rainbowSquiggle.png)`,
         greenSquiggle: `url(/greenSquiggle.png)`,
         pinkSquiggle: `url(/pinkSquiggle.png)`,
+        squiggleBg: "url(/squiggleBg.png)",
       },
       translate: {
         center: "-50%, -50%",
