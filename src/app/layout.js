@@ -53,12 +53,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${kumbh.variable} ${marshland.variable} ${bavistage.variable} font-sans isolate`}
+        className={`${kumbh.variable} ${marshland.variable} ${bavistage.variable} isolate font-sans`}
       >
-        <HeaderCarousel />
+        <HeaderCarousel
+          message={"NOW BOOKING PROJECTS FOR 2023"}
+          width={366}
+          animation={"animate-slowSlideHeader"}
+        />
         <header className="sticky top-0 z-40">
-          <nav className="px-12 h-[80px] flex justify-between items-center relative bg-landing bg-landingBg">
-            <ul className="flex text-seaweed font-medium">
+          <nav className="relative flex h-[80px] items-center justify-between bg-landingBg bg-landing px-12">
+            <ul className="flex font-medium text-seaweed">
               <NavItem pathClass="stroke-burnt" text="HOME" path="/" exact />
               <NavItem
                 pathClass="stroke-strokePinky navItemServices"
@@ -69,7 +73,7 @@ export default function RootLayout({ children }) {
               <NavItem pathClass="stroke-seaweed" text="ABOUT" path="/about" />
             </ul>
             <Image
-              className="w-[164px] h-auto absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]"
+              className="absolute left-[50%] top-[50%] h-auto w-[164px] -translate-x-[50%] -translate-y-[50%]"
               src={logoHeader}
               alt="some fun logo"
             />

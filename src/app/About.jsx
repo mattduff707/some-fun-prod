@@ -16,7 +16,7 @@ const About = () => {
       <div className="flex w-full flex-col items-center bg-squiggleBg bg-cover pb-[240px]">
         <div className="w-full max-w-constraint pt-pageTop">
           <Title
-            boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-20"
+            boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-16"
             titleClass={"fill-seaweed translate-x-[24px] translate-y-[4px]"}
           >
             THE TEAM

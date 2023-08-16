@@ -55,9 +55,13 @@ module.exports = {
         constraint: "1000px",
       },
       keyframes: {
-        slowSlide: {
+        slowSlideFooter: {
           "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(-1830px)" },
+          "100%": { transform: "translateX(calc(-244px * 8))" },
+        },
+        slowSlideHeader: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(calc(-366px * 8))" },
         },
         loud: {
           "0%, 100%": { fontSize: "1.5rem" },
@@ -76,7 +80,8 @@ module.exports = {
         loud: "loud 0.4s ease forwards",
         rotation: "rotation 28s linear infinite",
         shadowRotation: "shadowRotation 28s linear infinite",
-        slowSlide: "slowSlide 60s linear infinite",
+        slowSlideHeader: "slowSlideHeader 60s linear infinite",
+        slowSlideFooter: "slowSlideFooter 60s linear infinite",
       },
       boxShadow: {
         main: "0px 0px 0px 8px #CE6F50",
