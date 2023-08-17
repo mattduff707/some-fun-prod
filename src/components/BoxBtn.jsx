@@ -7,16 +7,16 @@ const BoxBtn = ({
   shadowClass = "",
 }) => {
   return (
-    <div className={`relative ${wrapClass} group`}>
-      <div
-        className={`duration-800 absolute left-0 top-0 h-full w-full translate-x-1.5 translate-y-1.5 rounded-[82px] ${shadowClass}`}
+    <button className={`group relative ${wrapClass}`}>
+      <span
+        className={`duration-800 absolute left-0 top-0 block h-full w-full translate-x-1.5 translate-y-1.5 rounded-[82px] transition-transform group-hover:translate-x-0 group-hover:translate-y-0 ${shadowClass}`}
       />
-      <button
-        className={`-translate-x-0.5 -translate-y-0.5 rounded-[82px] ${buttonClass}`}
+      <span
+        className={`block -translate-x-0.5 -translate-y-0.5 rounded-[82px] transition-transform group-hover:translate-x-0 group-hover:translate-y-0 ${buttonClass}`}
       >
         {children}
-      </button>
-    </div>
+      </span>
+    </button>
   );
 };
 
