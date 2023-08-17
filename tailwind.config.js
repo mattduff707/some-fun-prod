@@ -107,6 +107,7 @@ module.exports = {
       },
       borderRadius: {
         box: "30px",
+        boxMobile: "20px",
       },
       padding: {
         pageTop: "88px",

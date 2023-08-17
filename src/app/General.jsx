@@ -15,7 +15,7 @@ const General = () => {
       <div className="isolate flex w-full max-w-constraint flex-col items-start max1000:items-center">
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seaweed bg-pale pt-10 px-12 pb-14 relative z-10 max1000:mb-20 max600:mb-16"
+            "shadow-seaweedShadow border-seawater bg-pale pt-10 px-12 pb-14 relative z-10 max1000:mb-20 max600:mb-16 z-[1]"
           }
         >
           <Heading as={"h2"} className="text-xl font-bold text-burntDark">
@@ -29,7 +29,7 @@ const General = () => {
           <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
             <BoxBtn
               buttonClass={
-                "border-4 border-seaweed px-12 py-3 font-semibold text-seaweed bg-pale whitespace-nowrap max600:text-sm"
+                "border-4 border-seawater px-12 py-3 font-semibold text-seaweed bg-pale whitespace-nowrap max600:text-sm"
               }
               shadowClass={"bg-burnt"}
             >
@@ -37,7 +37,7 @@ const General = () => {
             </BoxBtn>
           </div>
         </Box>
-        <div className="isolate flex w-full justify-center max1000:flex-col max1000:items-center">
+        <div className="isolate z-[2] flex w-full justify-center max1000:flex-col max1000:items-center">
           <div className="max600:translate-y-[48px] relative translate-x-[16px] translate-y-[140px] max1000:z-[20] max1000:translate-y-[64px]">
             <div className="max600:left-[-48px] absolute bottom-[-40px] left-[-60px] z-10 max1000:bottom-[-48px]">
               <div className="relative">
@@ -81,7 +81,7 @@ const General = () => {
         </div>
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seaweed bg-pale py-12 px-12 relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
+            "shadow-seaweedShadow border-seawater bg-pale py-12 px-12 relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
           }
         >
           <Text className="max-w-[425px] text-seaweed">

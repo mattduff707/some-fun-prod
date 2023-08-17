@@ -7,24 +7,26 @@ import Text from "@/components/Text";
 
 const Stack = () => {
   return (
-    <section className="px-section relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover pb-pageBottom pt-pageTop">
-      <div className="flex w-full max-w-constraint flex-col">
+    <section className="px-section max600:pt-pageTopMobile max600:pb-pageBottomMobile relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover pb-pageBottom pt-pageTop">
+      <div className="flex w-full max-w-constraint flex-col max1000:items-center">
         <Title boxClass="border-burnt bg-pale shadow-pinkyShadow">
           SKILL STACK
         </Title>
-        <div className="flex gap-2 py-20">
+        <div className="flex gap-2 py-20 max1000:flex-col max1000:gap-16">
           <SkillStack
-            wrapClass="-rotate-[4deg] origin-center translate-x-[40px] z-30"
+            wrapClass="-rotate-[4deg] origin-center translate-x-[40px] z-30 max1000:translate-x-0  max1000:rotate-0"
             title="BRANDING"
             items={["IDENTITY", "STRATEGY", "MARKETING"]}
           />
           <SkillStack
-            wrapClass={"-translate-y-[10px] z-20"}
+            wrapClass={
+              "-translate-y-[10px] z-20 max1000:translate-x-0  max1000:rotate-0 max1000:translate-y-0"
+            }
             title="DESIGNING"
             items={["WEBSITES", "UX/PRODUCT", "GRAPHICS"]}
           />
           <SkillStack
-            wrapClass="rotate-[4deg] origin-center -translate-x-[40px] z-10"
+            wrapClass="rotate-[4deg] origin-center -translate-x-[40px] z-10 max1000:translate-x-0 max1000:rotate-0"
             title="BUILDING"
             items={["RESPONSIVE WEB", "SYSTEMS", "ECOMMERCE"]}
           />

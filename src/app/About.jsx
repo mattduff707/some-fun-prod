@@ -12,8 +12,8 @@ import Smiley from "@/components/icons/Smiley";
 
 const About = () => {
   return (
-    <section className="px-section relative flex max-w-full flex-col items-center overflow-hidden bg-seawater bg-cover pt-8">
-      <div className="flex w-full flex-col items-center bg-squiggleBg bg-cover pb-[240px]">
+    <section className="px-section relative flex max-w-full flex-col items-center overflow-hidden bg-seawater bg-squiggleBg bg-cover pt-8">
+      <div className="flex w-full flex-col items-center  pb-[240px]">
         <div className="w-full max-w-constraint pt-pageTop">
           <Title
             boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-16"
