@@ -3,7 +3,7 @@ import General from "./General";
 import Stack from "./Stack";
 import Work from "./Work";
 import About from "./About";
-import HeaderCarousel from "./HeaderCarousel";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -13,10 +13,12 @@ export default function Home() {
       <Stack />
       <Work />
       <About />
-      <HeaderCarousel
+      <Carousel
         message="LET'S HAVE SOME FUN"
-        width={244}
+        width={296}
         animation={"animate-slowSlideFooter"}
+        itemClass={"text-lg"}
+        wrapClass="py-3"
       />
     </div>
   );

@@ -6,8 +6,8 @@ import Highlight from "../components/Highlight";
 
 const Stack = () => {
   return (
-    <section className="bg-cover bg-stack bg-fluff max-w-full overflow-hidden relative flex flex-col items-center pt-pageTop pb-pageBottom">
-      <div className="max-w-constraint w-full flex flex-col">
+    <section className="px-section relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover pb-pageBottom pt-pageTop">
+      <div className="flex w-full max-w-constraint flex-col">
         <Title boxClass="border-burnt bg-pale shadow-pinkyShadow">
           SKILL STACK
         </Title>
@@ -39,10 +39,10 @@ const Stack = () => {
           project, we want to help you make it long-lasting.
         </Box>
       </div>
-      <div className="w-full h-[76px] bg-dijon absolute bottom-0"></div>
+      <div className="absolute bottom-0 h-[76px] w-full bg-dijon"></div>
       <div
         alt=""
-        className="absolute bottom-0 inline-block w-[1920px] h-[136px] bg-pinkSquiggle bg-auto bg-center"
+        className="absolute bottom-0 inline-block h-[136px] w-[1920px] bg-pinkSquiggle bg-auto bg-center"
       />
     </section>
   );

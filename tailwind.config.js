@@ -60,7 +60,7 @@ module.exports = {
       keyframes: {
         slowSlideFooter: {
           "0%": { transform: "translateX(0)" },
-          "100%": { transform: "translateX(calc(-244px * 8))" },
+          "100%": { transform: "translateX(calc(-296px * 8))" },
         },
         slowSlideHeader: {
           "0%": { transform: "translateX(0)" },
@@ -108,6 +108,7 @@ module.exports = {
       padding: {
         pageTop: "88px",
         pageBottom: "252px",
+        section: "32px",
       },
     },
   },

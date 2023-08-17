@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import logoHeader from "../assets/somefunLogoHeader.png";
 import Insta from "../components/icons/insta";
 import Linkedin from "../components/icons/linkedin";
-import HeaderCarousel from "./HeaderCarousel";
+import Carousel from "../components/Carousel";
 import NavItem from "./NavItem";
 import Footer from "./Footer.jsx";
 
@@ -55,7 +55,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${kumbh.variable} ${marshland.variable} ${bavistage.variable} isolate font-sans`}
       >
-        <HeaderCarousel
+        <Carousel
           message={"NOW BOOKING PROJECTS FOR 2023"}
           width={366}
           animation={"animate-slowSlideHeader"}
