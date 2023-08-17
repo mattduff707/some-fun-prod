@@ -10,13 +10,13 @@ import BoxBtn from "../../components/BoxBtn.jsx";
 
 const Services = () => {
   return (
-    <section className="relative bg-fluff w-full flex justify-center pb-40 px-6">
-      <div className="flex flex-col items-center max-w-constraint w-full">
-        <div className="w-[640px] h-[132px] pt-12">
+    <section className="relative flex w-full justify-center bg-fluff px-6 pb-40">
+      <div className="flex w-full max-w-constraint flex-col items-center">
+        <div className="h-[132px] w-[640px] pt-12">
           <TitleText titleClass="translate-x-[32px]">SERVICES</TitleText>
         </div>
         <Box boxClass="p-12 pt-8 border-burnt mt-16 shadow-fluffShadow bg-pale">
-          <h2 className="text-burntDark font-bold text-xl mb-2">
+          <h2 className="mb-2 text-xl font-bold text-burntDark">
             Let&#39;s bring your vision to life!
           </h2>
           <p className="text-lg text-seaweed">
@@ -29,8 +29,8 @@ const Services = () => {
             meet your unique needs. Learn more about our process here!
           </p>
         </Box>
-        <div className="flex flex-col justify-between w-full mt-12 px-12 items-center gap-12 900:gap-0 900:items-end 900:flex-row ">
-          <div className="flex flex-col gap-6 items-center">
+        <div className="min900:gap-0 min900:items-end min900:flex-row mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 ">
+          <div className="flex flex-col items-center gap-6">
             <Image src={designIcon} alt="" width={161} height={189} />
             <BoxBtn
               buttonClass={
@@ -53,7 +53,7 @@ const Services = () => {
               </p>
             </Box> */}
           </div>
-          <div className="flex flex-col gap-6 items-center">
+          <div className="flex flex-col items-center gap-6">
             <Image src={buildIcon} alt="" width={217} height={159} />
             <BoxBtn
               buttonClass={
@@ -73,7 +73,7 @@ const Services = () => {
               </p>
             </Box> */}
           </div>
-          <div className="flex flex-col gap-6 items-center">
+          <div className="flex flex-col items-center gap-6">
             <Image src={brandingIcon} alt="" width={195} height={196} />
             <BoxBtn
               buttonClass={

@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      900: "900px",
+      min900: { min: "900px" },
+      max900: { max: "900px" },
+      min1000: { min: "1000px" },
+      max1000: { max: "1000px" },
     },
     colors: {
       pale: "#F9EFE1",

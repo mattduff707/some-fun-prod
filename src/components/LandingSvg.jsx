@@ -1,17 +1,17 @@
 import React from "react";
 const font =
-  "font-sans font-black text-[3.8rem] min-[1000px]:text-[1.5rem] fill-burntDark stroke-pale stroke-[2px] min-[1000px]:stroke-[1px] tracking-tighter";
+  "font-sans font-black text-[3.8rem] min1000:text-[1.5rem] fill-burntDark stroke-pale stroke-[2px] min1000:stroke-[1px] tracking-tighter";
 
-const fun = `stroke-burntDark fill-pale font-sans font-black text-[3.4rem] min-[1000px]:text-[1.5rem] tracking-tighter stroke-[2px] min-[1000px]:stroke-[1px]`;
+const fun = `stroke-burntDark fill-pale font-sans font-black text-[3.4rem] min1000:text-[1.5rem] tracking-tighter stroke-[2px] min1000:stroke-[1px]`;
 
 const LandingSvg = () => {
   return (
-    <div className="inline-block relative w-full align-middle pb-[60%] max-[1000px]:max-w-[520px] overflow-visible min-[1000px]:translate-x-[-4%] min-[1000px]:pb-[44%]">
+    <div className="max1000:max-w-[520px] min1000:translate-x-[-4%] min1000:pb-[44%] relative inline-block w-full overflow-visible pb-[60%] align-middle">
       <svg
         viewBox="0 0 308 120"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="hidden absolute top-0 left-0 group py-8 min-[1000px]:inline-block"
+        className="min1000:inline-block group absolute left-0 top-0 hidden py-8"
       >
         <style>
           {`
@@ -101,7 +101,7 @@ const LandingSvg = () => {
         viewBox="0 0 360 500"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="inline-block absolute top-0 left-0 group min-[1000px]:hidden border-2 border-500-red"
+        className="border-500-red min1000:hidden group absolute left-0 top-0 inline-block border-2"
       >
         <style>
           {`

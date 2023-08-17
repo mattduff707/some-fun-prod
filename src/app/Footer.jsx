@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="w-full pb-16">
           <Image className="h-auto w-[240px]" src={logoHeader} alt="Some Fun" />
         </div>
-        <div className="flex flex-col justify-between gap-12 900:flex-row 900:gap-0">
+        <div className="min900:flex-row min900:gap-0 flex flex-col justify-between gap-12">
           <figure className="">
             <figcaption className="pb-6 font-bold">NAVIGATION</figcaption>
             <ul>
