@@ -7,19 +7,30 @@ import buildIcon from "../../assets/buildIcon.png";
 import brandingIcon from "../../assets/brandingIcon.png";
 import FancyText from "../../components/FancyText.jsx";
 import BoxBtn from "../../components/BoxBtn.jsx";
+import PageTitle from "@/components/PageTitle.jsx";
+import Heading from "@/components/Heading.jsx";
+import Text from "@/components/Text.jsx";
+import { tokens } from "@/constants.js";
 
 const Services = () => {
   return (
     <section className="relative flex w-full justify-center bg-fluff px-6 pb-40">
       <div className="flex w-full max-w-constraint flex-col items-center">
-        <div className="h-[132px] w-[640px] pt-12">
-          <TitleText titleClass="translate-x-[32px]">SERVICES</TitleText>
-        </div>
+        <PageTitle
+          titleClass="translate-x-[32px] fill-pale stroke-burnt"
+          shadowColor={tokens.boxShadowColors.pinkyShadow}
+          x={70}
+          y={-8}
+          starFill={tokens.colors.burnt}
+        >
+          SERVICES
+        </PageTitle>
+
         <Box boxClass="p-12 pt-8 border-burnt mt-16 shadow-fluffShadow bg-pale">
-          <h2 className="mb-2 text-xl font-bold text-burntDark">
+          <Heading as="h2" className="mb-2 text-xl font-bold text-burntDark">
             Let&#39;s bring your vision to life!
-          </h2>
-          <p className="text-lg text-seaweed">
+          </Heading>
+          <Text className="text-seaweed">
             We offer a comprehensive suite of services to elevate your business,
             including expert website design and development, brand identity
             development, illustrations, as well as creating distinctive logos.
@@ -27,9 +38,9 @@ const Services = () => {
             enterprises. Whether you require ongoing design and development
             support or are interested in one-off projects, we&#39;re here to
             meet your unique needs. Learn more about our process here!
-          </p>
+          </Text>
         </Box>
-        <div className="min900:gap-0 min900:items-end min900:flex-row mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 ">
+        <div className="mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 min900:flex-row min900:items-end min900:gap-0 ">
           <div className="flex flex-col items-center gap-6">
             <Image src={designIcon} alt="" width={161} height={189} />
             <BoxBtn
@@ -95,14 +106,14 @@ const Services = () => {
           </div>
         </div>
         <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale relative">
-          <p className="text-lg text-seaweed">
+          <Text className="text-seaweed">
             Give us a shout and let&#39;s brainstorm together! We&#39;re excited
             to lend our creative touch to your next big project.
-          </p>
+          </Text>
           <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
             <BoxBtn
               buttonClass={
-                "border-4 border-burntDark px-12 py-3 font-semibold text-seaweed bg-pale"
+                "border-4 border-burntDark px-12 py-3 font-semibold text-seaweed bg-pale whitespace-nowrap"
               }
               shadowClass={"bg-burnt"}
             >

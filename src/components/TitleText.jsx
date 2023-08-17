@@ -2,12 +2,12 @@ import React from "react";
 
 const TitleText = ({ titleClass, children }) => {
   return (
-    <div className="inline-block relative w-full pb-[12%] overflow-visible">
+    <div className="relative inline-block w-full overflow-visible pb-[12%]">
       <svg
         viewBox="0 0 440 100"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="inline-block absolute top-0 left-0 overflow-visible"
+        className="absolute left-0 top-0 inline-block overflow-visible"
       >
         <style>
           {`
@@ -19,7 +19,7 @@ const TitleText = ({ titleClass, children }) => {
         <text
           x="80"
           y="60"
-          className={`font font-sans font-black text-[48px] fill-burntDark stroke-pale stroke-[2px] tracking-tighter ${titleClass}`}
+          className={`font stroke-[2px] font-sans text-[48px] font-black tracking-tighter ${titleClass}`}
         >
           {children}
         </text>
