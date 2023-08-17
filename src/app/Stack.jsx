@@ -3,6 +3,7 @@ import Title from "../components/Title";
 import React from "react";
 import SkillStack from "./SkillStack";
 import Highlight from "../components/Highlight";
+import Text from "@/components/Text";
 
 const Stack = () => {
   return (
@@ -30,13 +31,15 @@ const Stack = () => {
         </div>
         <Box
           boxClass={
-            "border-burnt shadow-pinkyShadow bg-pale text-lg text-seaweed py-[40px] px-[40px]"
+            "border-burnt shadow-pinkyShadow bg-pale text-seaweed py-[40px] px-[40px]"
           }
         >
-          In everything we do, we strive to serve a{" "}
-          <Highlight>greater purpose</Highlight>. Whether we’re shaping the
-          future of your small business, your non-profit, or your passion
-          project, we want to help you make it long-lasting.
+          <Text>
+            In everything we do, we strive to serve a{" "}
+            <Highlight>greater purpose</Highlight>. Whether we’re shaping the
+            future of your small business, your non-profit, or your passion
+            project, we want to help you make it long-lasting.
+          </Text>
         </Box>
       </div>
       <div className="absolute bottom-0 h-[76px] w-full bg-dijon"></div>

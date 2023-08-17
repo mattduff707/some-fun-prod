@@ -7,10 +7,12 @@ module.exports = {
   ],
   theme: {
     screens: {
-      min900: { min: "900px" },
-      max900: { max: "900px" },
       min1000: { min: "1000px" },
       max1000: { max: "1000px" },
+      min900: { min: "900px" },
+      max900: { max: "900px" },
+      min600: { min: "600px" },
+      max600: { max: "600px" },
     },
     colors: {
       pale: "#F9EFE1",
@@ -36,6 +38,7 @@ module.exports = {
         bavistage: [`var(--font-bavistage)`, "sans"],
       },
       fontSize: {
+        xs: "0.75rem",
         sm: "0.875rem",
         base: "1rem",
         lg: "1.25rem",
@@ -107,8 +110,11 @@ module.exports = {
       },
       padding: {
         pageTop: "88px",
+        pageTopMobile: "40px",
+        pageBottomMobile: "200px",
         pageBottom: "252px",
         section: "32px",
+        sectionMobile: "16px",
       },
     },
   },
