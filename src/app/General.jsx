@@ -1,5 +1,5 @@
 import Box from "../components/Box";
-import BoxBtn from "..//components/BoxBtn";
+import BoxBtn from "../components/BoxBtn";
 import Image from "next/image";
 import React from "react";
 import alissaPic from "../assets/alissaPic.png";
@@ -15,7 +15,7 @@ const General = () => {
       <div className="isolate flex w-full max-w-constraint flex-col items-start max1000:items-center">
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seawater bg-pale pt-10 px-12 pb-14 relative z-10 max1000:mb-20 max600:mb-16 z-[1]"
+            "shadow-seaweedShadow border-seawater bg-pale pt-10 px-12 pb-14 relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
           }
         >
           <Heading as={"h2"} className="text-xl font-bold text-burntDark">
@@ -29,7 +29,7 @@ const General = () => {
           <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
             <BoxBtn
               buttonClass={
-                "border-4 border-seawater px-12 py-3 font-semibold text-seaweed bg-pale whitespace-nowrap max600:text-sm"
+                "border-4 border-seawater font-semibold text-seaweed bg-pale whitespace-nowrap"
               }
               shadowClass={"bg-seawater"}
             >
@@ -81,7 +81,7 @@ const General = () => {
         </div>
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seawater bg-pale py-12 px-12 relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
+            "shadow-seaweedShadow border-seawater bg-pale relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
           }
         >
           <Text className="max-w-[425px] text-seaweed">

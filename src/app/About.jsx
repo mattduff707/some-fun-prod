@@ -18,14 +18,14 @@ const About = () => {
           <Title
             boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-16"
             titleClass={
-              "fill-seaweed translate-x-[24px] translate-y-[2px] stroke-pale"
+              "fill-seaweed translate-x-[28px] translate-y-[2px] stroke-pale max600:translate-y-0"
             }
           >
             THE TEAM
           </Title>
           <div className="flex items-center max1000:flex-col max1000:gap-16">
             <Image
-              className="h-auto w-[50%] origin-top-right translate-y-12 rotate-[-7deg] rounded-[60px] border-[15px] border-seaweed shadow-box shadow-seaweedShadow max1000:w-full max1000:translate-y-0 max1000:rotate-0"
+              className="h-auto w-[50%] origin-top-right translate-y-12 rotate-[-7deg] rounded-[60px] border-[15px] border-seaweed shadow-box shadow-seawaterShadow max1000:w-full max1000:max-w-[480px] max1000:translate-y-0 max1000:rotate-0 max600:max-w-[400px]"
               width={1001}
               height={1291}
               src={usPic}
@@ -33,16 +33,16 @@ const About = () => {
             />
             <Box
               boxClass={
-                "shadow-seaweedShadow border-seaweed bg-pale pt-10 px-12 pb-14 relative z-10 w-[50%] max1000:w-full"
+                "shadow-seawaterShadow border-seaweed bg-pale pt-10 relative z-10 w-[50%] max1000:w-full max600:pb-10"
               }
             >
-              <p className="max-w-[425px] pt-4 text-lg text-seaweed">
+              <p className="max-w-[425px] pt-4 text-lg text-seaweed max1000:max-w-none">
                 Hi! We&#39;re Alissa & Matt, the tiny team behind the screens!
               </p>
               <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
                 <BoxBtn
                   buttonClass={
-                    "border-4 border-seaweed px-12 py-3 font-semibold text-seaweed bg-pale flex items-center justify-center gap-2 whitespace-nowrap"
+                    "border-4 border-seaweed font-semibold text-seaweed bg-pale flex items-center justify-center gap-2 whitespace-nowrap"
                   }
                   shadowClass={"bg-seaweed"}
                   link={"/about"}

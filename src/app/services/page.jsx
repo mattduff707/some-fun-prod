@@ -27,7 +27,7 @@ const Services = () => {
           SERVICES
         </PageTitle>
 
-        <Box boxClass="p-12 pt-8 border-burnt mt-16 shadow-fluffShadow bg-pale">
+        <Box boxClass=" border-burnt mt-16 shadow-fluffShadow bg-pale">
           <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
             Let&#39;s bring your vision to life!
           </Heading>
@@ -56,14 +56,6 @@ const Services = () => {
                 letterClass={"translate-y-[4px] text-xxxl"}
               />
             </BoxBtn>
-            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
-              <p className="text-seaweed text-lg font-black translate-y-[-2px]">
-              <FancyText
-              text={"DESIGNING"}
-              letterClass={"translate-y-[4px] text-xxxl"}
-              />
-              </p>
-            </Box> */}
           </div>
           <div className="flex flex-col items-center gap-6">
             <Image src={buildIcon} alt="" width={217} height={159} />
@@ -79,11 +71,6 @@ const Services = () => {
                 letterClass={"text-xxxl"}
               />
             </BoxBtn>
-            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
-              <p className="text-seaweed text-lg font-black translate-y-[-2px]">
-              <FancyText text={"BUILDING"} letterClass={"text-xxxl"} />
-              </p>
-            </Box> */}
           </div>
           <div className="flex flex-col items-center gap-6">
             <Image src={brandingIcon} alt="" width={195} height={196} />
@@ -106,7 +93,7 @@ const Services = () => {
             </Box> */}
           </div>
         </div>
-        <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale relative">
+        <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale relative max600:pb-10">
           <Text className="text-seaweed">
             Give us a shout and let&#39;s brainstorm together! We&#39;re excited
             to lend our creative touch to your next big project.

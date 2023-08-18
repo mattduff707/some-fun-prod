@@ -3,7 +3,7 @@ import React from "react";
 const Box = ({ boxClass, children }) => {
   return (
     <div
-      className={`max600:rounded-boxMobile rounded-box border-[8px] shadow-box ${boxClass}`}
+      className={`rounded-box border-[8px] p-12 pt-8 shadow-box max600:rounded-boxMobile max600:p-6 max600:pt-4 ${boxClass}`}
     >
       {children}
     </div>

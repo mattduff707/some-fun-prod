@@ -5,7 +5,7 @@ const PageWrap = ({ children, className }) => {
     <section
       className={`relative flex w-full justify-center px-6 pb-40 ${className}`}
     >
-      <div className="animate-fadeIn flex justify-center opacity-0">
+      <div className="animate-fadeIn flex w-full justify-center opacity-0">
         {children}
       </div>
     </section>
