@@ -39,6 +39,9 @@ module.exports = {
         marshland: [`var(--font-marshland)`, "sans"],
         bavistage: [`var(--font-bavistage)`, "sans"],
       },
+      borderWidth: {
+        common: "7px",
+      },
       fontSize: {
         xs: "0.75rem",
         sm: "0.875rem",
@@ -88,8 +91,8 @@ module.exports = {
         loud: "loud 0.4s ease forwards",
         rotation: "rotation 28s linear infinite",
         shadowRotation: "shadowRotation 28s linear infinite",
-        slowSlideHeader: "slowSlideHeader 60s linear infinite",
-        slowSlideFooter: "slowSlideFooter 60s linear infinite",
+        slowSlideHeader: "slowSlideHeader 120s linear infinite",
+        slowSlideFooter: "slowSlideFooter 100s linear infinite",
       },
       boxShadow: {
         main: "0px 0px 0px 8px #CE6F50",
@@ -104,6 +107,7 @@ module.exports = {
       },
       boxShadowColor: {
         seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
+        seawaterShadow: "hsla(170deg, 18%, 27%, 0.36)",
         pinkyShadow: "hsla(23deg, 25%, 56%, 0.36)",
         fluffShadow: "hsla(17deg, 27%, 55%, 0.36)",
       },

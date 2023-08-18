@@ -27,7 +27,7 @@ const Services = () => {
         </PageTitle>
 
         <Box boxClass="p-12 pt-8 border-burnt mt-16 shadow-fluffShadow bg-pale">
-          <Heading as="h2" className="mb-2 text-xl font-bold text-burntDark">
+          <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
             Let&#39;s bring your vision to life!
           </Heading>
           <Text className="text-seaweed">
@@ -117,7 +117,7 @@ const Services = () => {
               }
               shadowClass={"bg-burnt"}
             >
-              START A PROJECT
+              CONTACT US!
             </BoxBtn>
           </div>
         </Box>
