@@ -86,6 +86,10 @@ module.exports = {
             transform: "rotate(360deg) rotate(-360deg)",
           },
         },
+        fadeIn: {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
       },
       animation: {
         loud: "loud 0.4s ease forwards",
@@ -93,6 +97,7 @@ module.exports = {
         shadowRotation: "shadowRotation 28s linear infinite",
         slowSlideHeader: "slowSlideHeader 120s linear infinite",
         slowSlideFooter: "slowSlideFooter 100s linear infinite",
+        fadeIn: "fadeIn 0.5s 0.25s ease forwards",
       },
       boxShadow: {
         main: "0px 0px 0px 8px #CE6F50",

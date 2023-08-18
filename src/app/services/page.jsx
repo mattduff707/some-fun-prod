@@ -11,10 +11,11 @@ import PageTitle from "@/components/PageTitle.jsx";
 import Heading from "@/components/Heading.jsx";
 import Text from "@/components/Text.jsx";
 import { tokens } from "@/constants.js";
+import PageWrap from "@/components/PageWrap.jsx";
 
 const Services = () => {
   return (
-    <section className="relative flex w-full justify-center bg-fluff px-6 pb-40">
+    <PageWrap className="bg-pinky">
       <div className="flex w-full max-w-constraint flex-col items-center">
         <PageTitle
           titleClass="translate-x-[32px] fill-pale stroke-burnt"
@@ -57,10 +58,10 @@ const Services = () => {
             </BoxBtn>
             {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black translate-y-[-2px]">
-                <FancyText
-                  text={"DESIGNING"}
-                  letterClass={"translate-y-[4px] text-xxxl"}
-                />
+              <FancyText
+              text={"DESIGNING"}
+              letterClass={"translate-y-[4px] text-xxxl"}
+              />
               </p>
             </Box> */}
           </div>
@@ -80,7 +81,7 @@ const Services = () => {
             </BoxBtn>
             {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black translate-y-[-2px]">
-                <FancyText text={"BUILDING"} letterClass={"text-xxxl"} />
+              <FancyText text={"BUILDING"} letterClass={"text-xxxl"} />
               </p>
             </Box> */}
           </div>
@@ -100,7 +101,7 @@ const Services = () => {
             </BoxBtn>
             {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="text-seaweed text-lg font-black  translate-y-[-2px]">
-                <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />
+              <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />
               </p>
             </Box> */}
           </div>
@@ -122,7 +123,7 @@ const Services = () => {
           </div>
         </Box>
       </div>
-    </section>
+    </PageWrap>
   );
 };
 

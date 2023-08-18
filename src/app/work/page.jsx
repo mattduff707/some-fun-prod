@@ -1,10 +1,11 @@
 import PageTitle from "@/components/PageTitle";
+import PageWrap from "@/components/PageWrap";
 import { tokens } from "@/constants";
 import React from "react";
 
 const Page = () => {
   return (
-    <section className="relative flex w-full justify-center bg-dijon px-6 pb-40">
+    <PageWrap className=" bg-dijon">
       <div className="flex w-full max-w-constraint flex-col items-center">
         <PageTitle
           titleClass="translate-x-[66px] fill-pale stroke-darkDijon"
@@ -16,7 +17,7 @@ const Page = () => {
           WORK
         </PageTitle>
       </div>
-    </section>
+    </PageWrap>
   );
 };
 
