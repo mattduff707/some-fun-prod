@@ -7,6 +7,8 @@ module.exports = {
   ],
   theme: {
     screens: {
+      min1200: { min: "1200px" },
+      max1200: { max: "1200px" },
       min1000: { min: "1000px" },
       max1000: { max: "1000px" },
       min900: { min: "900px" },

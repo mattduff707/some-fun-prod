@@ -17,7 +17,9 @@ const About = () => {
         <div className="w-full max-w-constraint pt-pageTop max1000:flex max1000:flex-col max1000:items-center">
           <Title
             boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-16"
-            titleClass={"fill-seaweed translate-x-[24px] translate-y-[4px]"}
+            titleClass={
+              "fill-seaweed translate-x-[24px] translate-y-[2px] stroke-pale"
+            }
           >
             THE TEAM
           </Title>

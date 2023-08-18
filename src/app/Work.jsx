@@ -7,7 +7,7 @@ const Work = () => {
       <div className="flex w-full max-w-constraint flex-col">
         <Title
           boxClass="border-darkDijon bg-pale shadow-pinkyShadow"
-          titleClass="fill-darkDijon translate-x-[60px]"
+          titleClass="fill-darkDijon translate-x-[60px] stroke-pale"
         >
           WORK
         </Title>

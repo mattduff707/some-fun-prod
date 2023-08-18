@@ -12,7 +12,7 @@ const PageTitle = ({
   starFill,
 }) => {
   return (
-    <div className="mb-8 h-[132px] w-[640px] pt-12">
+    <div className="mb-12 h-[99px] w-[640px] pt-12 max600:mb-4 max600:w-[480px]">
       <div className="relative inline-block w-full overflow-visible  pb-[12%]">
         <svg
           viewBox="0 0 440 100"
@@ -23,7 +23,7 @@ const PageTitle = ({
           <style>
             {`
             .font {
-                filter: drop-shadow(0px 2px 0.25px rgba(0, 0, 0, 0.10));
+                filter: drop-shadow(0px 2px 1.25px rgba(0, 0, 0, 0.30));
             }
             `}
           </style>

@@ -7,9 +7,9 @@ import Text from "@/components/Text";
 
 const Stack = () => {
   return (
-    <section className="px-section max600:pt-pageTopMobile max600:pb-pageBottomMobile relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover pb-pageBottom pt-pageTop">
+    <section className="relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover px-section pb-pageBottom pt-pageTop max600:pb-pageBottomMobile max600:pt-pageTopMobile">
       <div className="flex w-full max-w-constraint flex-col max1000:items-center">
-        <Title boxClass="border-burnt bg-pale shadow-pinkyShadow">
+        <Title boxClass="border-burnt bg-pale shadow-pinkyShadow stroke-pale fill-burnt">
           SKILL STACK
         </Title>
         <div className="flex gap-2 py-20 max1000:flex-col max1000:gap-16">
