@@ -7,6 +7,7 @@ import Linkedin from "../components/icons/linkedin";
 import Carousel from "../components/Carousel";
 import NavItem from "./NavItem";
 import Footer from "./Footer.jsx";
+import { tokens } from "@/constants";
 
 const kumbh = localFont({
   src: [
@@ -64,14 +65,31 @@ export default function RootLayout({ children }) {
           <nav className="relative flex h-[80px] items-center justify-between bg-landingBg bg-landing px-12">
             <div className="hidden max1200:block">Menu</div>
             <ul className="flex font-medium text-seaweed max1200:hidden">
-              <NavItem pathClass="stroke-burnt" text="HOME" path="/" exact />
               <NavItem
-                pathClass="stroke-strokePinky navItemServices"
+                pathClass="stroke-seawater"
+                text="HOME"
+                path="/"
+                exact
+                activeColor={tokens.colors.seawater}
+              />
+              <NavItem
+                pathClass="stroke-burntDark navItemServices"
                 text="SERVICES"
                 path="/services"
+                activeColor={tokens.colors.burntDark}
               />
-              <NavItem pathClass="stroke-darkDijon" text="WORK" path="/work" />
-              <NavItem pathClass="stroke-seaweed" text="ABOUT" path="/about" />
+              <NavItem
+                pathClass="stroke-darkDijon"
+                text="WORK"
+                path="/work"
+                activeColor={tokens.colors.darkDijon}
+              />
+              <NavItem
+                pathClass="stroke-seaweed"
+                text="ABOUT"
+                path="/about"
+                activeColor={tokens.colors.seaweed}
+              />
             </ul>
             <Image
               className="absolute left-[50%] top-[50%] h-auto w-[164px] -translate-x-[50%] -translate-y-[50%]"

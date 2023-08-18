@@ -44,7 +44,7 @@ const About = () => {
                   buttonClass={
                     "border-4 border-seaweed px-12 py-3 font-semibold text-seaweed bg-pale flex items-center justify-center gap-2 whitespace-nowrap"
                   }
-                  shadowClass={"bg-burnt"}
+                  shadowClass={"bg-seaweed"}
                   link={"/about"}
                 >
                   SEE MORE ABOUT US <Smiley className={"shrink-0"} />
