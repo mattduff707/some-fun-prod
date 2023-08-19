@@ -15,8 +15,9 @@ const General = () => {
       <div className="isolate flex w-full max-w-constraint flex-col items-start max1000:items-center">
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seawater bg-pale pt-10 px-12 pb-14 relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
+            "shadow-seaweedShadow border-seawater bg-pale relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
           }
+          withPadding
         >
           <Heading as={"h2"} className="text-xl font-bold text-burntDark">
             Howdy and Welcome!
@@ -83,6 +84,7 @@ const General = () => {
           boxClass={
             "shadow-seaweedShadow border-seawater bg-pale relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
           }
+          withPadding
         >
           <Text className="max-w-[425px] text-seaweed">
             We are <Highlight>creative</Highlight>,{" "}

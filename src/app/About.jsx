@@ -9,12 +9,13 @@ import Star from "../components/Star";
 import Title from "../components/Title";
 import usPic from "../assets/us.jpg";
 import Smiley from "@/components/icons/Smiley";
+import Text from "@/components/Text";
 
 const About = () => {
   return (
-    <section className="relative flex max-w-full flex-col items-center overflow-hidden bg-seawater bg-squiggleBg bg-cover px-section pt-8">
-      <div className="flex w-full flex-col items-center  pb-[240px]">
-        <div className="w-full max-w-constraint pt-pageTop max1000:flex max1000:flex-col max1000:items-center">
+    <section className="relative flex max-w-full flex-col items-center overflow-hidden bg-seawater bg-squiggleBg bg-cover px-section max600:px-sectionMobile">
+      <div className="flex w-full flex-col items-center  pb-[240px] max600:pb-[100px]">
+        <div className="w-full max-w-constraint pt-pageTop max1000:flex max1000:flex-col max1000:items-center max600:pt-pageTopMobile">
           <Title
             boxClass="border-seaweed bg-pale shadow-pinkyShadow shadow-seaweedShadow mb-16"
             titleClass={
@@ -33,12 +34,13 @@ const About = () => {
             />
             <Box
               boxClass={
-                "shadow-seawaterShadow border-seaweed bg-pale pt-10 relative z-10 w-[50%] max1000:w-full max600:pb-10"
+                "shadow-seawaterShadow border-seaweed bg-pale relative z-10 w-[50%] max1000:w-full max600:pb-10"
               }
+              withPadding
             >
-              <p className="max-w-[425px] pt-4 text-lg text-seaweed max1000:max-w-none">
+              <Text className="max-w-[425px] pt-4 text-seaweed max1000:max-w-none">
                 Hi! We&#39;re Alissa & Matt, the tiny team behind the screens!
-              </p>
+              </Text>
               <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
                 <BoxBtn
                   buttonClass={

@@ -27,7 +27,10 @@ const Services = () => {
           SERVICES
         </PageTitle>
 
-        <Box boxClass=" border-burnt mt-16 shadow-fluffShadow bg-pale">
+        <Box
+          withPadding
+          boxClass=" border-burnt mt-16 shadow-fluffShadow bg-pale"
+        >
           <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
             Let&#39;s bring your vision to life!
           </Heading>
@@ -93,7 +96,10 @@ const Services = () => {
             </Box> */}
           </div>
         </div>
-        <Box boxClass="p-12 border-burnt mt-16 shadow-fluffShadow bg-pale relative max600:pb-10">
+        <Box
+          withPadding
+          boxClass="border-burnt mt-16 shadow-fluffShadow bg-pale relative max600:pb-10"
+        >
           <Text className="text-seaweed">
             Give us a shout and let&#39;s brainstorm together! We&#39;re excited
             to lend our creative touch to your next big project.

@@ -7,7 +7,7 @@ import Text from "@/components/Text";
 
 const Stack = () => {
   return (
-    <section className="relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover px-section pb-pageBottom pt-pageTop max600:pb-pageBottomMobile max600:pt-pageTopMobile">
+    <section className="relative flex max-w-full flex-col items-center overflow-hidden bg-fluff bg-stack bg-cover px-section pb-pageBottom pt-pageTop max600:px-sectionMobile max600:pb-pageBottomMobile max600:pt-pageTopMobile">
       <div className="flex w-full max-w-constraint flex-col max1000:items-center">
         <Title boxClass="border-burnt bg-pale shadow-pinkyShadow stroke-pale fill-burnt">
           SKILL STACK
@@ -32,9 +32,8 @@ const Stack = () => {
           />
         </div>
         <Box
-          boxClass={
-            "border-burnt shadow-pinkyShadow bg-pale text-seaweed py-[40px] px-[40px]"
-          }
+          boxClass={"border-burnt shadow-pinkyShadow bg-pale text-seaweed"}
+          withPadding
         >
           <Text>
             In everything we do, we strive to serve a{" "}

@@ -15,6 +15,8 @@ module.exports = {
       max900: { max: "900px" },
       min600: { min: "600px" },
       max600: { max: "600px" },
+      min500: { min: "500px" },
+      max500: { max: "500px" },
     },
     colors: {
       pale: "#F9EFE1",
