@@ -1,7 +1,7 @@
 import { tokens } from "@/constants";
 import React from "react";
 
-function Arrow() {
+function Arrow({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -10,6 +10,7 @@ function Arrow() {
       fill="none"
       viewBox="0 0 21 13"
       stroke={tokens.colors.seaweed}
+      className={className}
     >
       <path
         stroke="inherit"

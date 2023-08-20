@@ -12,6 +12,14 @@ import Heading from "@/components/Heading.jsx";
 import Text from "@/components/Text.jsx";
 import { tokens } from "@/constants.js";
 import PageWrap from "@/components/PageWrap.jsx";
+import buildProcess from "@/assets/buildProcess.png";
+import designProcess from "@/assets/designProcess.png";
+import infoProcess from "@/assets/infoProcess.png";
+import launchProcess from "@/assets/launchProcess.png";
+import maintainProcess from "@/assets/maintainProcess.png";
+import planningProcess from "@/assets/planningProcess.png";
+import testingProcess from "@/assets/testingProcess.png";
+import Arrow from "@/components/icons/Arrow.jsx";
 
 const Services = () => {
   return (
@@ -115,6 +123,58 @@ const Services = () => {
             </BoxBtn>
           </div>
         </Box>
+        <div className="flex w-full items-center justify-center gap-6 pt-[100px]">
+          <div className="relative">
+            <Image src={infoProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+              Gather
+              <br /> Information
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={planningProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+              Planning +
+              <br /> Wireframing
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={designProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              Graphics + <br /> UI Design
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={buildProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              Architect + <br /> Build
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={testingProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+              Testing
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={launchProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              Delivery + <br /> Launch
+            </Text>
+          </div>
+          <Arrow />
+          <div className="relative">
+            <Image src={maintainProcess} alt="" />
+            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              Maintenance + <br /> Support
+            </Text>
+          </div>
+        </div>
       </div>
     </PageWrap>
   );
