@@ -20,6 +20,7 @@ import maintainProcess from "@/assets/maintainProcess.png";
 import planningProcess from "@/assets/planningProcess.png";
 import testingProcess from "@/assets/testingProcess.png";
 import Arrow from "@/components/icons/Arrow.jsx";
+import SimpleStar from "@/components/icons/simpleStar.jsx";
 
 const Services = () => {
   return (
@@ -123,58 +124,100 @@ const Services = () => {
             </BoxBtn>
           </div>
         </Box>
-        <div className="flex w-full items-center justify-center gap-6 pt-[100px]">
-          <div className="relative">
-            <Image src={infoProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
-              Gather
-              <br /> Information
-            </Text>
+        <div className="max max700:flex-col max700:gap-6 flex w-full items-center justify-center gap-6 px-3 pt-[100px] max1000:flex-wrap max1000:gap-8">
+          <div className="max700:flex-col max700:px-0 max700:pb-0 max700:max-w-[120px] flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[35px]">
+            <div className="relative">
+              <Image src={infoProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+                Gather
+                <br /> Information
+              </Text>
+            </div>
+            <Arrow className="max700:rotate-90 max700:w-[32px] h-auto shrink-0" />
+            <div className="relative">
+              <Image src={planningProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+                Planning +
+                <br /> Wireframing
+              </Text>
+            </div>
+            <Arrow className="max700:rotate-90 shrink-0" />
+            <div className="relative">
+              <Image src={designProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+                Graphics + <br /> UI Design
+              </Text>
+            </div>
+            <Arrow className="max700:rotate-90 shrink-0" />
+            <div className="relative">
+              <Image src={buildProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+                Architect + <br /> Build
+              </Text>
+            </div>
+            <Arrow
+              className={
+                "max700:rotate-90 max700:block shrink-0 max1000:hidden"
+              }
+            />
           </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={planningProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
-              Planning +
-              <br /> Wireframing
-            </Text>
-          </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={designProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
-              Graphics + <br /> UI Design
-            </Text>
-          </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={buildProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
-              Architect + <br /> Build
-            </Text>
-          </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={testingProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
-              Testing
-            </Text>
-          </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={launchProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
-              Delivery + <br /> Launch
-            </Text>
-          </div>
-          <Arrow />
-          <div className="relative">
-            <Image src={maintainProcess} alt="" />
-            <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
-              Maintenance + <br /> Support
-            </Text>
+          <div className="max700:flex-col max700:px-0 max700:max-w-[78px] flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[112px]">
+            <div className="relative">
+              <Image src={testingProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+                Testing +<br /> QA
+              </Text>
+            </div>
+            <Arrow className="max700:rotate-90 shrink-0" />
+            <div className="relative">
+              <Image src={launchProcess} alt="" />
+              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+                Delivery + <br /> Launch
+              </Text>
+            </div>
+            <Arrow className="max700:rotate-90 shrink-0" />
+            <div className="relative">
+              <Image src={maintainProcess} alt="" />
+              <Text className="max700:static max700:translate-x-0 absolute bottom-[calc(-85%)] left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+                Maintenance + <br /> Support
+              </Text>
+            </div>
           </div>
         </div>
+        <div className="my-[60px] flex w-full items-center justify-center gap-1">
+          <SimpleStar className="fill-burnt" />
+          <p className="translate-y-[-1px] text-lg text-seaweed">
+            or anywhere in-between!
+          </p>
+          <SimpleStar className="fill-burnt" />
+        </div>
+        <Box withPadding boxClass=" border-burnt shadow-fluffShadow bg-pale">
+          <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
+            Together we&#39;ll create something amazing.
+          </Heading>
+          <Text className="text-seaweed">
+            At Some Fun Studio, we&#39;re all ears for your exciting new
+            ventures. Share your journey, aspirations, and project ambitions
+            with us. Once we&#39;ve delved into your world, we provide
+            complimentary estimates based on the insights you&#39;ve shared and
+            the unique challenges of the project.
+            <br />
+            <br /> As we embark on this journey together, our quest for
+            knowledge continues. We delve into your business&#39;s roots, its
+            dreams, and its destined path. This understanding fuels our
+            strategic approach to achieve your aspirations.
+            <br />
+            <br /> Throughout our collaboration, we maintain a steady stream of
+            communication, exchanging thoughts and soaking in your feedback. We
+            believe in the power of teamwork—after all, you&#39;re the author of
+            your story, and we&#39;re the artists helping you bring it to life.
+            <br />
+            <br /> Guiding the entire process, from conception, to refining, to
+            final production, is our specialty. And even after the curtains rise
+            or the ink dries, our involvement remains, keeping your story&#39;s
+            success our top priority.
+          </Text>
+        </Box>
       </div>
     </PageWrap>
   );

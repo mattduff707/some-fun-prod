@@ -22,67 +22,67 @@ const Carousel = ({
         className={`flex ${animation} items-center font-bold ${trackClass}`}
       >
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
         <p style={{ width }} className={`${item} ${itemClass}`}>
-          <SimpleStar />
+          <SimpleStar className="shrink-0" />
           {message}
         </p>
       </div>
