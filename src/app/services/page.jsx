@@ -56,7 +56,7 @@ const Services = () => {
         <div className="mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 min900:flex-row min900:items-end min900:gap-0 ">
           <div className="flex flex-col items-center gap-6">
             <Image src={designIcon} alt="" width={161} height={189} />
-            <BoxBtn
+            {/* <BoxBtn
               buttonClass={
                 "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
               }
@@ -67,11 +67,16 @@ const Services = () => {
                 wordClass={"translate-y-[-2px]"}
                 letterClass={"translate-y-[4px] text-xxxl"}
               />
-            </BoxBtn>
+            </BoxBtn> */}
+            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+              <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
+                <FancyText text={"DESIGNING"} letterClass={"text-xxxl"} />
+              </p>
+            </Box>
           </div>
           <div className="flex flex-col items-center gap-6">
             <Image src={buildIcon} alt="" width={217} height={159} />
-            <BoxBtn
+            {/* <BoxBtn
               buttonClass={
                 "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
               }
@@ -82,11 +87,16 @@ const Services = () => {
                 wordClass={"translate-y-[-2px]"}
                 letterClass={"text-xxxl"}
               />
-            </BoxBtn>
+            </BoxBtn> */}
+            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+              <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
+                <FancyText text={"BUILDING"} letterClass={"text-xxxl"} />
+              </p>
+            </Box>
           </div>
           <div className="flex flex-col items-center gap-6">
             <Image src={brandingIcon} alt="" width={195} height={196} />
-            <BoxBtn
+            {/* <BoxBtn
               buttonClass={
                 "border-4 border-burntDark px-8 py-1 font-semibold text-seaweed bg-pale text-lg"
               }
@@ -97,12 +107,12 @@ const Services = () => {
                 wordClass={"translate-y-[-2px]"}
                 letterClass={"text-xxxl"}
               />
-            </BoxBtn>
-            {/* <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
-              <p className="text-seaweed text-lg font-black  translate-y-[-2px]">
-              <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />
+            </BoxBtn> */}
+            <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
+              <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
+                <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />
               </p>
-            </Box> */}
+            </Box>
           </div>
         </div>
         <Box
