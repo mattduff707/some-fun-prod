@@ -124,61 +124,61 @@ const Services = () => {
             </BoxBtn>
           </div>
         </Box>
-        <div className="max max700:flex-col max700:gap-6 flex w-full items-center justify-center gap-6 px-3 pt-[100px] max1000:flex-wrap max1000:gap-8">
-          <div className="max700:flex-col max700:px-0 max700:pb-0 max700:max-w-[120px] flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[35px]">
+        <div className="max flex w-full items-center justify-center gap-6 px-3 pt-[100px] max1000:flex-wrap max1000:gap-8 max700:flex-col max700:gap-6">
+          <div className="flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[35px] max700:max-w-[140px] max700:flex-col max700:gap-8 max700:px-0 max700:pb-0">
             <div className="relative">
               <Image src={infoProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Gather
                 <br /> Information
               </Text>
             </div>
-            <Arrow className="max700:rotate-90 max700:w-[32px] h-auto shrink-0" />
+            <Arrow className="h-auto shrink-0 max700:w-[32px] max700:rotate-90" />
             <div className="relative">
               <Image src={planningProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Planning +
                 <br /> Wireframing
               </Text>
             </div>
-            <Arrow className="max700:rotate-90 shrink-0" />
+            <Arrow className="h-auto shrink-0 max700:w-[32px] max700:rotate-90" />
             <div className="relative">
               <Image src={designProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Graphics + <br /> UI Design
               </Text>
             </div>
-            <Arrow className="max700:rotate-90 shrink-0" />
+            <Arrow className="h-auto shrink-0 max700:w-[32px] max700:rotate-90" />
             <div className="relative">
               <Image src={buildProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Architect + <br /> Build
               </Text>
             </div>
             <Arrow
               className={
-                "max700:rotate-90 max700:block shrink-0 max1000:hidden"
+                "h-auto shrink-0 max1000:hidden max700:block max700:w-[32px] max700:rotate-90 "
               }
             />
           </div>
-          <div className="max700:flex-col max700:px-0 max700:max-w-[78px] flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[112px]">
+          <div className="flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[112px] max700:w-full max700:max-w-[140px] max700:flex-col max700:gap-8 max700:px-0 max700:pb-0 ">
             <div className="relative">
               <Image src={testingProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Testing +<br /> QA
               </Text>
             </div>
-            <Arrow className="max700:rotate-90 shrink-0" />
+            <Arrow className="h-auto shrink-0 max700:w-[32px] max700:rotate-90" />
             <div className="relative">
               <Image src={launchProcess} alt="" />
-              <Text className="bottom-[calc(-50% - 8px)] max700:static max700:translate-x-0 absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              <Text className="bottom-[calc(-50% - 8px)] absolute left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Delivery + <br /> Launch
               </Text>
             </div>
-            <Arrow className="max700:rotate-90 shrink-0" />
+            <Arrow className="h-auto shrink-0 max700:w-[32px] max700:rotate-90" />
             <div className="relative">
               <Image src={maintainProcess} alt="" />
-              <Text className="max700:static max700:translate-x-0 absolute bottom-[calc(-85%)] left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed">
+              <Text className="absolute bottom-[calc(-85%)] left-[50%] translate-x-[-50%] whitespace-nowrap text-center text-base text-seaweed max700:static max700:translate-x-0 max600:text-lg">
                 Maintenance + <br /> Support
               </Text>
             </div>
