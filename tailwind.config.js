@@ -113,6 +113,7 @@ module.exports = {
               0.2px 4.2px 4.7px -1.8px,
               0.2px 6.4px 7.2px -2.1px,
               0.4px 9.5px 10.7px -2.5px`,
+        // box: "0px 0px 6px px",
       },
       boxShadowColor: {
         seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",

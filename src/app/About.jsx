@@ -44,9 +44,8 @@ const About = () => {
               <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
                 <BoxBtn
                   buttonClass={
-                    "border-4 border-seaweed font-semibold text-seaweed bg-pale flex items-center justify-center gap-2 whitespace-nowrap"
+                    "border-4 border-seaweed font-semibold text-seaweed bg-pale flex items-center justify-center gap-2 whitespace-nowrap group-hover:text-pale group-hover:bg-seaweed"
                   }
-                  shadowClass={"bg-seaweed"}
                   link={"/about"}
                 >
                   SEE MORE ABOUT US <Smiley className={"shrink-0"} />

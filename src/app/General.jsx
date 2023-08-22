@@ -15,7 +15,7 @@ const General = () => {
       <div className="isolate flex w-full max-w-constraint flex-col items-start max1000:items-center">
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seawater bg-pale relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
+            "shadow-seaweedShadow border-seaweed bg-pale relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
           }
           withPadding
         >
@@ -30,9 +30,8 @@ const General = () => {
           <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
             <BoxBtn
               buttonClass={
-                "border-4 border-seawater font-semibold text-seaweed bg-pale whitespace-nowrap"
+                "border-4 border-seaweed font-semibold text-seaweed bg-pale whitespace-nowrap group-hover:bg-seaweed group-hover:text-pale"
               }
-              shadowClass={"bg-seawater"}
             >
               START A PROJECT
             </BoxBtn>
