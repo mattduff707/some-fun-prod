@@ -21,6 +21,7 @@ import planningProcess from "@/assets/planningProcess.png";
 import testingProcess from "@/assets/testingProcess.png";
 import Arrow from "@/components/icons/Arrow.jsx";
 import SimpleStar from "@/components/icons/simpleStar.jsx";
+import Squiggle from "@/components/icons/Squiggle.jsx";
 
 const Services = () => {
   return (
@@ -101,7 +102,17 @@ const Services = () => {
             </BoxBtn>
           </div>
         </Box>
-        <div className="max flex w-full items-center justify-center gap-6 px-3 pt-[100px] max1000:flex-wrap max1000:gap-8 max700:flex-col max700:gap-6">
+        <div className="mt-[100px] flex w-full items-center justify-around max600:flex-col">
+          <Squiggle className="max-w-[280px] rotate-180 fill-pale" />
+          <div className="mb-1 w-[340px] shrink-0 px-4 max900:w-[320px] max600:mt-4">
+            <TitleText titleClass="fill-pale stroke-burnt stroke-2 translate-x-[-76px] translate-y-[-20px] text-[64px]">
+              OUR PROCESS
+            </TitleText>
+          </div>
+
+          <Squiggle className="max-w-[280px] rotate-180 fill-pale" />
+        </div>
+        <div className="max flex w-full items-center justify-center gap-6 px-3 pt-[40px] max1000:flex-wrap max1000:gap-8 max700:flex-col max700:gap-6">
           <div className="flex items-center justify-center gap-6 pb-[52px] max1000:max-w-[600px] max1000:px-[35px] max700:max-w-[140px] max700:flex-col max700:gap-8 max700:px-0 max700:pb-0">
             <div className="relative">
               <Image src={infoProcess} alt="" />
