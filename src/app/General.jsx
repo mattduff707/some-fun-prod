@@ -30,7 +30,7 @@ const General = () => {
           <div className="absolute bottom-[-26px] left-[50%] -translate-x-[50%]">
             <BoxBtn
               buttonClass={
-                "border-4 border-seaweed font-semibold text-seaweed bg-pale whitespace-nowrap group-hover:bg-seaweed group-hover:text-pale"
+                "border-4 border-seaweed font-semibold text-seaweed bg-pale whitespace-nowrap group-hover:bg-burntDark group-hover:text-pale"
               }
             >
               START A PROJECT

@@ -1,3 +1,12 @@
+import swa from "./assets/swa.png";
+import ccf from "./assets/ccf.png";
+import theatrSeatr from "./assets/theatrSeatr.png";
+import evergreen from "./assets/evergreen.png";
+import swaHover from "./assets/swaHover.png";
+import ccfHover from "./assets/ccfHover.png";
+import theatrSeatrHover from "./assets/theatrSeatrHover.png";
+import evergreenHover from "./assets/evergreenHover.png";
+
 export const tokens = {
   colors: {
     pale: "#F9EFE1",
@@ -19,3 +28,30 @@ export const tokens = {
     dijonShadow: "hsla(36deg, 44%, 46%, 0.36)",
   },
 };
+
+export const projectData = [
+  {
+    title: "Stronger With Adrienne",
+    thumbnail: swa,
+    thumbnailHover: swaHover,
+    link: "/work/swa",
+  },
+  {
+    title: "Evergreen Wildlife Rehabilitation",
+    thumbnail: evergreen,
+    thumbnailHover: evergreenHover,
+    link: "/work/evergreen",
+  },
+  {
+    title: "Theatr Seatr",
+    thumbnail: theatrSeatr,
+    thumbnailHover: theatrSeatrHover,
+    link: "/work/theatrSeatr",
+  },
+  {
+    title: "Columbia City Fitness",
+    thumbnail: ccf,
+    thumbnailHover: ccfHover,
+    link: "/work/ccf",
+  },
+];
