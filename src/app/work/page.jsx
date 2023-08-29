@@ -21,7 +21,10 @@ const Page = () => {
         >
           WORK
         </PageTitle>
-        <Box boxClass="p-12 pt-8 border-darkDijon mt-16 shadow-dijonShadow bg-pale">
+        <Box
+          withPadding
+          boxClass="p-12 pt-8 border-darkDijon mt-16 shadow-dijonShadow bg-pale"
+        >
           <Heading as="h2" className="mb-4 text-xl font-bold text-darkDijon">
             Elevating Ideas, Crafting Experiences.
           </Heading>

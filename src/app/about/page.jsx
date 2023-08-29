@@ -23,9 +23,12 @@ const Page = () => {
         >
           ABOUT
         </PageTitle>
-        <Box boxClass="p-12 pt-8 border-seaweed mt-16 shadow-seawaterShadow bg-pale">
+        <Box
+          withPadding
+          boxClass="p-12 pt-8 border-seaweed mt-16 shadow-seawaterShadow bg-pale"
+        >
           <Heading as="h2" className="mb-4 text-xl font-bold text-seaweed">
-            Passion Drives us, Creativity Defines us
+            Passion Drives us, Creativity Defines us.
           </Heading>
           <Text className="text-seaweed">
             Some Fun Studio is a family-owned boutique design and development
