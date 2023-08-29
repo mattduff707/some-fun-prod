@@ -22,6 +22,7 @@ module.exports = {
     },
     colors: {
       pale: "#F9EFE1",
+      offwhite: "#FFFFFA",
       pinky: "#F6E2D6",
       fluff: "#F4D8CD",
       burnt: "#CE6f50",

@@ -11,7 +11,7 @@ import React from "react";
 const Page = () => {
   return (
     <PageWrap className=" bg-dijon">
-      <div className="flex w-full max-w-constraint flex-col items-center overflow-hidden">
+      <div className="flex w-full max-w-constraint flex-col items-center ">
         <PageTitle
           titleClass="translate-x-[66px] fill-pale stroke-darkDijon"
           x={106}

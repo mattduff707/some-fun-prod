@@ -26,7 +26,7 @@ import Squiggle from "@/components/icons/Squiggle.jsx";
 const Services = () => {
   return (
     <PageWrap className="bg-pinky">
-      <div className="flex w-full max-w-constraint flex-col items-center overflow-hidden">
+      <div className="flex w-full max-w-constraint flex-col items-center">
         <PageTitle
           titleClass="translate-x-[32px] fill-pale stroke-burnt"
           shadowColor={tokens.boxShadowColors.pinkyShadow}

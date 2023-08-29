@@ -13,7 +13,7 @@ import PageWrap from "@/components/PageWrap";
 const Page = () => {
   return (
     <PageWrap className="bg-seawater">
-      <div className="relative flex w-full max-w-constraint flex-col items-center overflow-hidden pb-20">
+      <div className="relative flex w-full max-w-constraint flex-col items-center pb-20">
         <PageTitle
           titleClass="translate-x-[56px] fill-pale stroke-seaweed"
           x={98}

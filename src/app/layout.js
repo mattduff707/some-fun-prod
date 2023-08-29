@@ -10,6 +10,7 @@ import NavItem from "./NavItem";
 import Footer from "./Footer.jsx";
 import { tokens } from "@/constants";
 import Menu from "@/components/icons/Menu";
+import Link from "next/link";
 
 const kumbh = localFont({
   src: [
@@ -58,11 +59,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${kumbh.variable} ${marshland.variable} ${bavistage.variable} isolate font-sans`}
       >
-        <Carousel
-          message={"NOW BOOKING PROJECTS FOR 2023"}
-          width={366}
-          animation={"animate-slowSlideHeader"}
-        />
+        <Link href="/contact">
+          <Carousel
+            message={"NOW BOOKING PROJECTS FOR 2023"}
+            width={366}
+            animation={"animate-slowSlideHeader"}
+          />
+        </Link>
         <header className="sticky top-0 z-40">
           <nav className="relative flex h-[80px] items-center justify-between bg-landingBg bg-landing px-12 max600:h-[60px] max600:px-6">
             <button className="hidden max1200:block">
