@@ -9,6 +9,7 @@ import Carousel from "../components/Carousel";
 import NavItem from "./NavItem";
 import Footer from "./Footer.jsx";
 import { tokens } from "@/constants";
+import Menu from "@/components/icons/Menu";
 
 const kumbh = localFont({
   src: [
@@ -64,7 +65,9 @@ export default function RootLayout({ children }) {
         />
         <header className="sticky top-0 z-40">
           <nav className="relative flex h-[80px] items-center justify-between bg-landingBg bg-landing px-12 max600:h-[60px] max600:px-6">
-            <div className="hidden max1200:block">Menu</div>
+            <button className="hidden max1200:block">
+              <Menu className="h-[36px] w-[36px] max600:h-[32px] max600:w-[32px]" />
+            </button>
             <ul className="flex font-medium text-seaweed max1200:hidden">
               <NavItem
                 pathClass="stroke-seawater"
