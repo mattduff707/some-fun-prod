@@ -11,7 +11,7 @@ import React from "react";
 const Page = () => {
   return (
     <PageWrap className=" bg-dijon">
-      <div className="flex w-full max-w-constraint flex-col items-center">
+      <div className="flex w-full max-w-constraint flex-col items-center overflow-hidden">
         <PageTitle
           titleClass="translate-x-[66px] fill-pale stroke-darkDijon"
           x={106}
@@ -31,14 +31,14 @@ const Page = () => {
             prowess.
           </Text>
         </Box>
-        <div className="mx-auto mt-16 flex w-full flex-wrap gap-6">
+        <div className="mx-auto mt-16 flex w-full flex-wrap gap-6 max500:justify-center max500:gap-8">
           {projectData.map((project) => (
             <Link
               key={project.title}
-              className="group relative flex w-[calc(33%-14px)] flex-col items-center gap-4 overflow-hidden"
+              className="group relative flex w-[calc(33%-14px)] flex-col items-center gap-4 overflow-hidden max900:w-[calc(50%-14px)] max500:w-[80%]"
               href={project.link}
             >
-              <div className="shadow-dijonShadow relative overflow-hidden rounded-[28px] border-4 border-darkDijon shadow-box">
+              <div className="relative w-full overflow-hidden rounded-[28px] border-4 border-darkDijon shadow-box shadow-dijonShadow">
                 <Image
                   src={project.thumbnail}
                   className=" h-auto w-full "
@@ -48,7 +48,9 @@ const Page = () => {
                   <Image src={project.thumbnailHover} alt="" />
                 </div>
               </div>
-              <h3 className="text-lg text-seaweed">{project.title}</h3>
+              <h3 className="text-center text-lg text-seaweed">
+                {project.title}
+              </h3>
             </Link>
           ))}
         </div>
