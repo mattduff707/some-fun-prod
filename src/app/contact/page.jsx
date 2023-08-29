@@ -1,4 +1,5 @@
 import Box from "@/components/Box";
+import CoolButton from "@/components/CoolButton";
 import Heading from "@/components/Heading";
 import Highlight from "@/components/Highlight";
 import PageTitle from "@/components/PageTitle";
@@ -67,6 +68,9 @@ const Page = () => {
               />
             </div>
             <TextInput label="Tell us about your project!" required textarea />
+            <div className="grid w-full place-items-center pt-8 max600:pb-8">
+              <CoolButton type="submit">Send</CoolButton>
+            </div>
           </form>
         </Box>
       </div>
