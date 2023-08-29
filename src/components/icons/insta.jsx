@@ -1,6 +1,6 @@
 import React from "react";
 
-function Insta() {
+function Insta({ className }) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ function Insta() {
       height="21"
       fill="none"
       viewBox="0 0 22 21"
-      className="w-[34px] h-[34px]"
+      className={`h-[34px] w-[34px] ${className}`}
     >
       <path
         fill="#33524C"
