@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="w-full pb-16">
           <Image className="h-auto w-[240px]" src={logoHeader} alt="Some Fun" />
         </div>
-        <div className="min900:flex-row min900:gap-0 flex flex-col justify-between gap-12">
+        <div className="flex flex-col justify-between gap-12 min900:flex-row min900:gap-0">
           <figure className="">
             <figcaption className="pb-6 font-bold">NAVIGATION</figcaption>
             <ul>
@@ -58,20 +58,44 @@ const Footer = () => {
           <figure className="">
             <figcaption className="pb-6 font-bold">CONTACT US</figcaption>
             <ul>
-              <li className="flex items-center gap-2 pb-4 pl-[2px]">
-                <Email className={"h-[30px] w-[30px]"} />{" "}
-                HOWDY@SOMEFUNSTUDIO.COM
+              <li>
+                <a
+                  className="group flex items-center gap-3 pb-4 pl-[2px]"
+                  href="mailto:howdy@somefunstudio.com"
+                  target="_blank"
+                >
+                  <Email
+                    className={
+                      "h-[30px] w-[30px] fill-seaweed stroke-seaweed transition-colors group-hover:fill-burntDark group-hover:stroke-burntDark"
+                    }
+                  />{" "}
+                  HOWDY@SOMEFUNSTUDIO.COM
+                </a>
               </li>
-              <li className="flex items-center gap-2 pb-4 pl-[2px]">
-                <Linkedin className="mr-1 h-[30px] w-[30px]" /> IN/SOMEFUNSTUDIO
+              <li>
+                <a
+                  className="group flex items-center gap-2 pb-4 pl-[2px]"
+                  href="https://www.linkedin.com/company/some-fun-studio"
+                  target="_blank"
+                >
+                  <Linkedin className="mr-1 h-[30px] w-[30px] fill-seaweed transition-colors group-hover:fill-burntDark" />{" "}
+                  IN/SOMEFUNSTUDIO
+                </a>
               </li>
-              <li className="flex items-center gap-2 pb-4">
-                <Insta /> @SOMEFUNSTUDIO
+              <li className="translate-x-[-2px]">
+                <a
+                  className="group flex items-center gap-2 pb-4 pl-[2px]"
+                  href="https://www.instagram.com/somefunstudio"
+                  target="_blank"
+                >
+                  <Insta className="fill-seaweed transition-colors group-hover:fill-burntDark" />{" "}
+                  @SOMEFUNSTUDIO
+                </a>
               </li>
             </ul>
           </figure>
         </div>
-        <p className="pt-12">EST. 2021 SOME FUN STUDIO</p>
+        <p className="pt-12">EST. 2019 SOME FUN STUDIO</p>
       </div>
     </footer>
   );

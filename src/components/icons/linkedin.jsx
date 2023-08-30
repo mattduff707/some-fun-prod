@@ -8,14 +8,14 @@ function Linkedin({ className }) {
       height="21"
       fill="none"
       viewBox="0 0 21 21"
-      className={`w-[28px] h-[28px] ${className}`}
+      className={`h-[28px] w-[28px] ${className}`}
     >
       <path
         fill="#fff"
         d="M16.078 0H4.922A4.922 4.922 0 000 4.922v11.156A4.922 4.922 0 004.922 21h11.156A4.922 4.922 0 0021 16.078V4.922A4.922 4.922 0 0016.078 0z"
       ></path>
       <path
-        fill="#33524C"
+        fill="inherit"
         d="M16.078 0H4.922A4.922 4.922 0 000 4.922v11.156A4.922 4.922 0 004.922 21h11.156A4.922 4.922 0 0021 16.078V4.922A4.922 4.922 0 0016.078 0z"
       ></path>
       <path

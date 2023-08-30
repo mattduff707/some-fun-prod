@@ -15,8 +15,8 @@ function Email({ className }) {
         height="25.517"
         x="1.16"
         y="1.16"
-        fill="#33524C"
-        stroke="#33524C"
+        fill="inherit"
+        stroke="inherit"
         strokeWidth="2.32"
         rx="5.026"
       ></rect>

@@ -51,8 +51,15 @@ const Header = () => {
           alt="some fun logo"
         />
         <div className="flex items-center gap-4 max600:gap-2">
-          <Linkedin className="max600:h-[22px] max600:w-[22px]" />
-          <Insta className="max600:h-[28px] max600:w-[28px]" />
+          <a
+            href="https://www.linkedin.com/company/some-fun-studio"
+            target="_blank"
+          >
+            <Linkedin className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[22px] max600:w-[22px]" />
+          </a>
+          <a href="https://www.instagram.com/somefunstudio" target="_blank">
+            <Insta className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[28px] max600:w-[28px]" />
+          </a>
         </div>
       </nav>
     </header>
