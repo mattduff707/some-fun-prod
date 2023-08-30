@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { tokens } from "../constants";
 
-const NavItem = ({ text, path, pathClass, exact, activeColor }) => {
+const NavItem = ({ text, path, pathClass, exact, activeColor, onClick }) => {
   const pathname = usePathname();
 
   const isActive = exact ? pathname === path : pathname.includes(path);
@@ -13,6 +13,7 @@ const NavItem = ({ text, path, pathClass, exact, activeColor }) => {
   return (
     <li>
       <Link
+        onClick={onClick}
         href={path}
         className="navItem group relative block cursor-pointer px-6 py-2 text-center"
       >

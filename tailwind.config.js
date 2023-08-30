@@ -71,6 +71,14 @@ module.exports = {
         constraint: "1000px",
       },
       keyframes: {
+        menuOpen: {
+          "0%": { opacity: 0, left: "0" },
+          "100%": { opacity: 1 },
+        },
+        menuClose: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0, left: "-100%" },
+        },
         slowSlideFooter: {
           "0%": { transform: "translateX(0)" },
           "100%": { transform: "translateX(calc(-296px * 8))" },
@@ -103,6 +111,8 @@ module.exports = {
         slowSlideHeader: "slowSlideHeader 120s linear infinite",
         slowSlideFooter: "slowSlideFooter 100s linear infinite",
         fadeIn: "fadeIn 0.5s 0.25s ease forwards",
+        menuOpen: "menuOpen 0.3s ease forwards",
+        menuClose: "menuClose 0.3s ease forwards",
       },
       boxShadow: {
         main: "0px 0px 0px 8px #CE6F50",
