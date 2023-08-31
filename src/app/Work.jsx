@@ -37,10 +37,10 @@ const Work = () => {
           ))}
         </div>
       </div>
-      <div className="absolute bottom-0 h-[76px] w-full bg-seawater"></div>
+      <div className="absolute bottom-0 h-[76px] w-full bg-dijon"></div>
       <div
         alt=""
-        className="absolute bottom-0 inline-block h-[136px] w-[1920px] bg-pinkSquiggle bg-auto bg-center"
+        className="bg-dijonSquiggle absolute bottom-0 inline-block h-[136px] w-[1920px] bg-auto bg-center"
       />
     </section>
   );

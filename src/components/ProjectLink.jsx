@@ -15,7 +15,7 @@ const ProjectLink = ({ project }) => {
         <div className="absolute top-0 flex h-full w-full items-center justify-center bg-pale opacity-0 transition-opacity group-hover:opacity-100">
           <Image src={project.thumbnailHover} alt="" />
         </div>
-        <div className="absolute left-[50%] top-[50%] flex w-[140%] translate-x-[-50%] translate-y-[-50%] rotate-45 items-center justify-center gap-2 bg-burnt py-2 text-lg text-pale">
+        <div className="absolute left-[50%] top-[50%] flex w-[140%] translate-x-[-50%] translate-y-[-50%] rotate-45 items-center justify-center gap-2 bg-darkDijon py-2 text-lg text-pale">
           <SimpleStar />
           <p>COMING SOON</p>
           <SimpleStar />

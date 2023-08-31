@@ -62,6 +62,7 @@ module.exports = {
         rainbow: `url(/rainbowSquiggle.png)`,
         greenSquiggle: `url(/greenSquiggle.png)`,
         pinkSquiggle: `url(/pinkSquiggle.png)`,
+        dijonSquiggle: `url(/dijonSquiggle.png)`,
         squiggleBg: "url(/squiggleBg.png)",
       },
       translate: {
