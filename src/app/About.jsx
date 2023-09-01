@@ -8,8 +8,8 @@ import Highlight from "../components/Highlight";
 import Star from "../components/Star";
 import Title from "../components/Title";
 import usPic from "../assets/us.jpg";
-import Smiley from "@/components/icons/Smiley";
-import Text from "@/components/Text";
+import Smiley from "../components/icons/Smiley";
+import Text from "../components/Text";
 
 const About = () => {
   return (

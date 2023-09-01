@@ -1,11 +1,11 @@
 import Box from "@/components/Box";
+import ContactForm from "../../components/ContactForm";
 import CoolButton from "@/components/CoolButton";
 import Heading from "@/components/Heading";
 import Highlight from "@/components/Highlight";
 import PageTitle from "@/components/PageTitle";
 import PageWrap from "@/components/PageWrap";
 import Text from "@/components/Text";
-import TextInput from "@/components/TextInput";
 import { projectData, tokens } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
@@ -44,34 +44,7 @@ const Page = () => {
           <p className="mb-10 text-lg text-seaweed">
             <Highlight>*</Highlight> indicates required fields
           </p>
-          <form className="flex flex-col gap-6">
-            <div className="flex gap-8 max1000:flex-col max1000:gap-6">
-              <TextInput label="Name" className="flex-1" required />
-              <TextInput label="Email" className="flex-1" required />
-            </div>
-            <div className="flex gap-8 max1000:flex-col max1000:gap-6">
-              <TextInput label="Business Name" className="flex-1" />
-              <TextInput label="Location" className="flex-1" />
-            </div>
-            <div className="flex gap-8 max1000:flex-col max1000:gap-6">
-              <TextInput label="Social media handle(s)" className="flex-1" />
-              <TextInput label="Website" className="flex-1" />
-            </div>
-            <div className="flex gap-8 max1000:flex-col max1000:gap-6">
-              <TextInput
-                label="Do you have a budget for this project?"
-                className="flex-1"
-              />
-              <TextInput
-                label="Ideally this project is done by?"
-                className="flex-1"
-              />
-            </div>
-            <TextInput label="Tell us about your project!" required textarea />
-            <div className="grid w-full place-items-center pt-8 max600:pb-8">
-              <CoolButton type="submit">Send</CoolButton>
-            </div>
-          </form>
+          <ContactForm />
         </Box>
       </div>
     </PageWrap>
