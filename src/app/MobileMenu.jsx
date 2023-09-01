@@ -6,6 +6,8 @@ import Menu from "../components/icons/Menu";
 import Rainbow from "../components/Rainbow";
 import Image from "next/image";
 import logoHeader from "../assets/somefunLogoHeader.png";
+import Close from "../components/icons/Close";
+
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
 
@@ -22,7 +24,7 @@ const MobileMenu = () => {
           left: menuOpen ? "0" : "-100%",
           opacity: menuOpen ? "1" : "0",
         }}
-        className="fixed top-0 z-[2] h-full w-full overflow-hidden bg-landingBg bg-landing transition-opacity duration-300 min1200:hidden"
+        className="fixed top-0 z-[2] h-full min-h-[628px] w-full overflow-hidden bg-landingBg bg-landing transition-opacity duration-300 min1200:hidden"
       >
         <div className="flex h-full w-full flex-col items-center justify-center gap-8">
           <Image
@@ -65,10 +67,20 @@ const MobileMenu = () => {
               activeColor={tokens.colors.seaweed}
             />
           </ul>
-          <Rainbow className="absolute left-[10%] top-[10%] h-[80px] w-[600px] translate-x-[-50%] -rotate-45 max700:left-[6%] max700:top-[6%] max700:h-[60px]" />
-          <Rainbow className="absolute right-[10%] top-[10%] h-[80px] w-[600px] translate-x-[50%] rotate-45 max700:right-[6%] max700:top-[6%] max700:h-[60px]" />
-          <Rainbow className="absolute bottom-[10%] left-[10%] h-[80px] w-[600px] translate-x-[-50%] rotate-[225deg] max700:bottom-[6%] max700:left-[6%] max700:h-[60px]" />
-          <Rainbow className="absolute bottom-[10%] right-[10%] h-[80px] w-[600px] translate-x-[50%] -rotate-[225deg] max700:bottom-[6%] max700:right-[6%] max700:h-[60px]" />
+          <button
+            className="absolute left-[2%] top-[2%] p-[2px] max700:top-[1%] max500:left-[1px] max500:top-[1px]"
+            onClick={() => setMenuOpen(false)}
+          >
+            <Close
+              className={
+                "h-[48px] w-[48px] fill-seaweed transition-colors hover:fill-burntDark max700:h-[40px] max700:w-[40px]"
+              }
+            />
+          </button>
+          <Rainbow className="absolute left-[10%] top-[10%] h-[80px] w-[600px] translate-x-[-50%] -rotate-45 max700:left-[9%] max700:top-[9%] max700:h-[60px]" />
+          <Rainbow className="absolute right-[10%] top-[10%] h-[80px] w-[600px] translate-x-[50%] rotate-45 max700:right-[9%] max700:top-[9%] max700:h-[60px]" />
+          <Rainbow className="absolute bottom-[10%] left-[10%] h-[80px] w-[600px] translate-x-[-50%] rotate-[225deg] max700:bottom-[9%] max700:left-[9%] max700:h-[60px]" />
+          <Rainbow className="absolute bottom-[10%] right-[10%] h-[80px] w-[600px] translate-x-[50%] -rotate-[225deg] max700:bottom-[9%] max700:right-[9%] max700:h-[60px]" />
         </div>
       </div>
     </>
