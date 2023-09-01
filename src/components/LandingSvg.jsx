@@ -1,17 +1,17 @@
 import React from "react";
 const font =
-  "font-sans font-black text-[3.8rem] min1000:text-[1.5rem] fill-burntDark stroke-pale stroke-[2px] min1000:stroke-[1px] tracking-tighter";
+  "font-sans font-black text-[3.2rem] min1000:text-[1.5rem] fill-burntDark stroke-pale stroke-[2px] min1000:stroke-[1px] tracking-tighter";
 
 const fun = `stroke-burntDark fill-pale font-sans font-black text-[3.4rem] min1000:text-[1.5rem] tracking-tighter stroke-[2px] min1000:stroke-[1px]`;
 
 const LandingSvg = () => {
   return (
-    <div className="max1000:max-w-[520px] min1000:translate-x-[-4%] min1000:pb-[44%] relative inline-block w-full overflow-visible pb-[60%] align-middle">
+    <div className="relative inline-block w-full overflow-visible pb-[60%] align-middle min1000:translate-x-[-4%] min1000:pb-[44%] max1000:max-w-[460px]">
       <svg
         viewBox="0 0 308 120"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="min1000:inline-block group absolute left-0 top-0 hidden py-8"
+        className="group absolute left-0 top-0 hidden py-8 min1000:inline-block"
       >
         <style>
           {`
@@ -101,7 +101,7 @@ const LandingSvg = () => {
         viewBox="0 0 360 500"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="border-500-red min1000:hidden group absolute left-0 top-0 inline-block border-2"
+        className="border-500-red group absolute left-0 top-0 inline-block border-2 min1000:hidden"
       >
         <style>
           {`

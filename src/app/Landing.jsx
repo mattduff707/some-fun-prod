@@ -4,7 +4,7 @@ import React from "react";
 
 const Landing = () => {
   return (
-    <section className="md:px-10 max1000:pb-[240px] relative flex h-[100vh] min-h-[800px] w-full max-w-full flex-col items-center overflow-hidden bg-landing px-4">
+    <section className="md:px-10 relative flex h-[100vh] min-h-[800px] w-full max-w-full flex-col items-center overflow-hidden bg-landing px-4 max1000:pb-[240px]">
       <div className="flex h-full w-full max-w-[1400px] items-center justify-center pb-[200px]">
         <LandingSvg />
       </div>
