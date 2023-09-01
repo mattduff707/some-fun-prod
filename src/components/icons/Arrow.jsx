@@ -1,4 +1,4 @@
-import { tokens } from "@/constants";
+import { tokens } from "../../constants";
 import React from "react";
 
 function Arrow({ className }) {

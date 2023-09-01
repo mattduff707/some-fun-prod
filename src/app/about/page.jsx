@@ -1,14 +1,14 @@
-import Box from "@/components/Box";
-import Heading from "@/components/Heading";
-import PageTitle from "@/components/PageTitle";
-import Text from "@/components/Text";
-import { tokens } from "@/constants";
+import Box from "../../components/Box";
+import Heading from "../../components/Heading";
+import PageTitle from "../../components/PageTitle";
+import Text from "../../components/Text";
+import { tokens } from "../..//constants";
 import Image from "next/image";
 import React from "react";
 import usMaine from "../../assets/usMaine.jpg";
 import dogs from "../../assets/dogs.jpg";
 import curvePoint from "../../assets/curvePoint.png";
-import PageWrap from "@/components/PageWrap";
+import PageWrap from "../../components/PageWrap";
 
 const Page = () => {
   return (

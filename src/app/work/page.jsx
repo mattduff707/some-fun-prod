@@ -1,12 +1,10 @@
-import Box from "@/components/Box";
-import Heading from "@/components/Heading";
-import PageTitle from "@/components/PageTitle";
-import PageWrap from "@/components/PageWrap";
-import ProjectLink from "@/components/ProjectLink";
-import Text from "@/components/Text";
-import { projectData, tokens } from "@/constants";
-import Image from "next/image";
-import Link from "next/link";
+import Box from "../../components/Box";
+import Heading from "../../components/Heading";
+import PageTitle from "../../components/PageTitle";
+import PageWrap from "../../components/PageWrap";
+import ProjectLink from "../../components/ProjectLink";
+import Text from "../../components/Text";
+import { projectData, tokens } from "../../constants";
 import React from "react";
 
 const Page = () => {

@@ -1,6 +1,5 @@
 import React from "react";
 import Star from "./Star";
-import { tokens } from "@/constants";
 
 const PageTitle = ({
   titleClass,

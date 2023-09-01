@@ -1,14 +1,11 @@
-import Box from "@/components/Box";
+import Box from "../../components/Box";
 import ContactForm from "../../components/ContactForm";
-import CoolButton from "@/components/CoolButton";
-import Heading from "@/components/Heading";
-import Highlight from "@/components/Highlight";
-import PageTitle from "@/components/PageTitle";
-import PageWrap from "@/components/PageWrap";
-import Text from "@/components/Text";
-import { projectData, tokens } from "@/constants";
-import Image from "next/image";
-import Link from "next/link";
+import Heading from "../../components/Heading";
+import Highlight from "../../components/Highlight";
+import PageTitle from "../../components/PageTitle";
+import PageWrap from "../../components/PageWrap";
+import Text from "../../components/Text";
+import { tokens } from "../../constants";
 import React from "react";
 
 const Page = () => {

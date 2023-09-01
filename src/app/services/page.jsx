@@ -7,21 +7,21 @@ import buildIcon from "../../assets/buildIcon.png";
 import brandingIcon from "../../assets/brandingIcon.png";
 import FancyText from "../../components/FancyText.jsx";
 import BoxBtn from "../../components/BoxBtn.jsx";
-import PageTitle from "@/components/PageTitle.jsx";
-import Heading from "@/components/Heading.jsx";
-import Text from "@/components/Text.jsx";
-import { tokens } from "@/constants.js";
-import PageWrap from "@/components/PageWrap.jsx";
-import buildProcess from "@/assets/buildProcess.png";
-import designProcess from "@/assets/designProcess.png";
-import infoProcess from "@/assets/infoProcess.png";
-import launchProcess from "@/assets/launchProcess.png";
-import maintainProcess from "@/assets/maintainProcess.png";
-import planningProcess from "@/assets/planningProcess.png";
-import testingProcess from "@/assets/testingProcess.png";
-import Arrow from "@/components/icons/Arrow.jsx";
-import SimpleStar from "@/components/icons/simpleStar.jsx";
-import Squiggle from "@/components/icons/Squiggle.jsx";
+import PageTitle from "../../components/PageTitle.jsx";
+import Heading from "../../components/Heading.jsx";
+import Text from "../../components/Text.jsx";
+import { tokens } from "../../constants.js";
+import PageWrap from "../../components/PageWrap.jsx";
+import buildProcess from "../../assets/buildProcess.png";
+import designProcess from "../../assets/designProcess.png";
+import infoProcess from "../../assets/infoProcess.png";
+import launchProcess from "../../assets/launchProcess.png";
+import maintainProcess from "../../assets/maintainProcess.png";
+import planningProcess from "../../assets/planningProcess.png";
+import testingProcess from "../../assets/testingProcess.png";
+import Arrow from "../../components/icons/Arrow.jsx";
+import SimpleStar from "../../components/icons/simpleStar.jsx";
+import Squiggle from "../../components/icons/Squiggle.jsx";
 
 const Services = () => {
   return (

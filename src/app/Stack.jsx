@@ -3,7 +3,7 @@ import Title from "../components/Title";
 import React from "react";
 import SkillStack from "./SkillStack";
 import Highlight from "../components/Highlight";
-import Text from "@/components/Text";
+import Text from "../components/Text";
 
 const Stack = () => {
   return (

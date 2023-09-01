@@ -1,12 +1,12 @@
-import Box from "@/components/Box";
+import Box from "../components/Box";
 import Title from "../components/Title";
 import React from "react";
-import Heading from "@/components/Heading";
-import Text from "@/components/Text";
+import Heading from "../components/Heading";
+import Text from "../components/Text";
 import Link from "next/link";
 import Image from "next/image";
-import { projectData } from "@/constants";
-import ProjectLink from "@/components/ProjectLink";
+import { projectData } from "../constants";
+import ProjectLink from "../components/ProjectLink";
 
 const Work = () => {
   return (
