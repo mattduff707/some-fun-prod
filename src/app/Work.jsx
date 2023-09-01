@@ -40,7 +40,7 @@ const Work = () => {
       <div className="absolute bottom-0 h-[76px] w-full bg-seawater"></div>
       <div
         alt=""
-        className="absolute bottom-[4px] inline-block h-[136px] w-[1920px] bg-dijonSquiggle bg-auto bg-center"
+        className="absolute bottom-[-1px] inline-block h-[140px] w-[1920px] bg-dijonSquiggle bg-auto bg-center"
       />
     </section>
   );

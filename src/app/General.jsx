@@ -97,7 +97,7 @@ const General = () => {
       <div className="absolute bottom-0 h-[82px] w-full bg-fluff"></div>
       <div
         alt=""
-        className="absolute bottom-0 inline-block h-[142px] w-[1920px] bg-greenSquiggle bg-auto bg-center"
+        className="absolute bottom-[-3px] inline-block h-[146px] w-[1920px] bg-greenSquiggle bg-auto bg-center"
       />
     </section>
   );
