@@ -94,6 +94,10 @@ module.exports = {
           "0%, 100%": { fontSize: "1.5rem" },
           "50%": { fontSize: "2rem" },
         },
+        loudMobile: {
+          "0%, 100%": { fontSize: "4.0rem" },
+          "50%": { fontSize: "5rem" },
+        },
         rotation: {
           to: { transform: "rotate(360deg)" },
         },
@@ -109,6 +113,7 @@ module.exports = {
       },
       animation: {
         loud: "loud 0.4s ease forwards",
+        loudMobile: "loudMobile 0.4s ease forwards",
         rotation: "rotation 28s linear infinite",
         shadowRotation: "shadowRotation 28s linear infinite",
         slowSlideHeader: "slowSlideHeader 120s linear infinite",

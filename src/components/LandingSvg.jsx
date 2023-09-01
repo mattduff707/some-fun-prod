@@ -11,7 +11,7 @@ const LandingSvg = () => {
         viewBox="0 0 308 120"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="group absolute left-0 top-0 hidden py-8 min1000:inline-block"
+        className="group absolute left-0 top-0 hidden cursor-default py-8 min1000:inline-block"
       >
         <style>
           {`
@@ -73,8 +73,8 @@ const LandingSvg = () => {
           rotate="-8"
           x="279"
           y="54"
-          style={{ animationDelay: "0.2s" }}
-          className={`${fun} font group-hover:animate-loud`}
+          style={{ animationDelay: "0.9s" }}
+          className={`${fun} font animate-loud`}
         >
           N
         </text>
@@ -82,16 +82,17 @@ const LandingSvg = () => {
           rotate="1"
           x="261"
           y="54"
-          style={{ animationDelay: "0.1s" }}
-          className={`${fun} font group-hover:animate-loud`}
+          style={{ animationDelay: "0.8s" }}
+          className={`${fun} font animate-loud`}
         >
           U
         </text>
         <text
+          style={{ animationDelay: "0.7s" }}
           rotate="-8"
           x="252"
           y="54"
-          className={`${fun} font group-hover:animate-loud`}
+          className={`${fun} font animate-loud`}
         >
           F
         </text>
@@ -101,7 +102,7 @@ const LandingSvg = () => {
         viewBox="0 0 360 390"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
-        className="border-500-red group absolute left-0 top-0 inline-block min1000:hidden"
+        className="border-500-red group absolute left-0 top-0 inline-block cursor-default min1000:hidden"
       >
         <style>
           {`
@@ -203,8 +204,8 @@ const LandingSvg = () => {
           rotate="-8"
           x="190"
           y="223"
-          style={{ animationDelay: "0.2s" }}
-          className={`${fun} font`}
+          style={{ animationDelay: "0.7s" }}
+          className={`${fun} font animate-loudMobile`}
         >
           N
         </text>
@@ -212,12 +213,18 @@ const LandingSvg = () => {
           rotate="1"
           x="148"
           y="223"
-          style={{ animationDelay: "0.1s" }}
-          className={`${fun} font`}
+          style={{ animationDelay: "0.6s" }}
+          className={`${fun} font animate-loudMobile `}
         >
           U
         </text>
-        <text rotate="-8" x="125" y="223" className={`${fun} font`}>
+        <text
+          rotate="-8"
+          x="125"
+          y="223"
+          style={{ animationDelay: "0.5s" }}
+          className={`${fun} font animate-loudMobile`}
+        >
           F
         </text>
       </svg>
