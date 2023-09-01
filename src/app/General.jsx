@@ -6,8 +6,8 @@ import alissaPic from "../assets/alissaPic.png";
 import mattPic from "../assets/mattPic.png";
 import Highlight from "../components/Highlight";
 import Star from "../components/Star";
-import Text from "@/components/Text";
-import Heading from "@/components/Heading";
+import Text from "../components/Text";
+import Heading from "../components/Heading";
 
 const General = () => {
   return (

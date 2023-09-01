@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import NavItem from "./NavItem";
-import { tokens } from "@/constants";
-import Menu from "@/components/icons/Menu";
-import Rainbow from "@/components/Rainbow";
+import { tokens } from "../constants";
+import Menu from "../components/icons/Menu";
+import Rainbow from "../components/Rainbow";
 import Image from "next/image";
 import logoHeader from "../assets/somefunLogoHeader.png";
 const MobileMenu = () => {

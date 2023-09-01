@@ -1,12 +1,11 @@
 import React from "react";
 import NavItem from "./NavItem";
-import Menu from "@/components/icons/Menu";
 import Image from "next/image";
 import logoHeader from "../assets/somefunLogoHeader.png";
 import logoHeaderSmall from "../assets/logoHeaderSmall.png";
-import Linkedin from "@/components/icons/linkedin";
-import Insta from "@/components/icons/insta";
-import { tokens } from "@/constants";
+import Linkedin from "../components/icons/linkedin";
+import Insta from "../components/icons/insta";
+import { tokens } from "../constants";
 import MobileMenu from "./MobileMenu";
 const Header = () => {
   return (
