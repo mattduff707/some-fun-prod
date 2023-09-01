@@ -36,11 +36,8 @@ const Page = () => {
         </Box>
         <Box
           withPadding
-          boxClass="p-12 pt-8 border-seawater mt-16 shadow-seaweedShadow bg-pale mt-14 w-full"
+          boxClass="p-12 pt-8 border-seawater mt-16 shadow-seaweedShadow bg-pale mt-14 w-full relative"
         >
-          <p className="mb-10 text-lg text-seaweed">
-            <Highlight>*</Highlight> indicates required fields
-          </p>
           <ContactForm />
         </Box>
       </div>

@@ -20,7 +20,7 @@ export async function POST(req) {
 
     const resendData = await resend.emails.send({
       from: "Contact <onboarding@somefunstudio.com>",
-      to: ["matt@somefunstudio.com"],
+      to: ["matthew@somefunstudio.com"],
       subject: "Contact Form Submission",
       react: ContactTemplate({
         name,
@@ -37,6 +37,6 @@ export async function POST(req) {
 
     return NextResponse.json(resendData);
   } catch (error) {
-    return NextResponse.json({ error });
+    return NextResponse.json({ error }, { status: 500 });
   }
 }

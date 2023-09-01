@@ -7,6 +7,7 @@ const BoxBtn = ({
   buttonClass = "",
   shadowClass = "",
   link = false,
+  onClick,
 }) => {
   if (link) {
     return (
@@ -24,7 +25,7 @@ const BoxBtn = ({
   }
 
   return (
-    <button className={`group relative ${wrapClass}`}>
+    <button onClick={onClick} className={`group relative ${wrapClass}`}>
       <span
         className={`duration-800 absolute left-0 top-0 block h-full w-full translate-x-1.5 translate-y-1.5 rounded-[82px] bg-burntDark transition-transform group-hover:translate-x-0 group-hover:translate-y-0 ${shadowClass}`}
       />
