@@ -70,7 +70,7 @@ h6 {
 }
 
 .navPath {
-  stroke-dasharray: 2000;
+  stroke-dasharray: 1990;
   stroke-dashoffset: 2000;
   transition: all 0.5s ease;
   /* transform: rotate(180deg); */

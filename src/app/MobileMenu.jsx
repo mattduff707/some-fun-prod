@@ -26,12 +26,13 @@ const MobileMenu = () => {
       >
         <div className="flex h-full w-full flex-col items-center justify-center gap-8">
           <Image
-            className="h-auto w-[164px]"
+            className="h-auto w-[380px] max600:w-[340px]"
             src={logoHeader}
             alt="some fun logo"
           />
           <ul className="flex flex-col items-center gap-4 text-lg font-medium text-seaweed">
             <NavItem
+              className={"text-xxl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-seawater"
               text="HOME"
@@ -40,6 +41,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.seawater}
             />
             <NavItem
+              className={"text-xxl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-burntDark navItemServices"
               text="SERVICES"
@@ -47,6 +49,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.burntDark}
             />
             <NavItem
+              className={"text-xxl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-darkDijon"
               text="WORK"
@@ -54,6 +57,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.darkDijon}
             />
             <NavItem
+              className={"text-xxl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-seaweed"
               text="ABOUT"
