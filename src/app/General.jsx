@@ -82,7 +82,7 @@ const General = () => {
         </div>
         <Box
           boxClass={
-            "shadow-seaweedShadow border-seawater bg-pale relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
+            "shadow-seaweedShadow border-seaweed bg-pale relative self-end max1000:self-center max1000:mt-32 max600:mt-20"
           }
           withPadding
         >

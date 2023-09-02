@@ -116,7 +116,7 @@ const Services = () => {
                 "border-4 border-burntDark px-12 py-3 font-semibold text-seaweed bg-pale whitespace-nowrap group-hover:bg-burntDark group-hover:text-pale"
               }
             >
-              CONTACT US!
+              CONTACT US
             </BoxBtn>
           </div>
         </Box>

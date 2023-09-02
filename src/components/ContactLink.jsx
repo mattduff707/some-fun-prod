@@ -19,7 +19,7 @@ const ContactLink = ({ className, onClick }) => {
       href="/contact"
       className={`grid h-[31px] w-[132px] place-items-center whitespace-nowrap rounded-[5px] border-2 border-seaweed font-bold text-seaweed transition-colors hover:border-burntDark hover:bg-burntDark hover:text-offwhite ${className}`}
     >
-      CONTACT US!
+      CONTACT US
     </Link>
   );
 };

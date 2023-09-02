@@ -28,6 +28,7 @@ export const tokens = {
     pinkyShadow: "hsla(23deg, 25%, 56%, 0.36)",
     fluffShadow: "hsla(17deg, 27%, 55%, 0.36)",
     dijonShadow: "hsla(36deg, 44%, 46%, 0.36)",
+    seawaterShadow: "hsla(170deg, 18%, 27%, 0.36)",
   },
 };
 

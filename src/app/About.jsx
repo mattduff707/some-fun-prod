@@ -10,6 +10,7 @@ import Title from "../components/Title";
 import usPic from "../assets/us.jpg";
 import Smiley from "../components/icons/Smiley";
 import Text from "../components/Text";
+import Heading from "../components/Heading";
 
 const About = () => {
   return (
