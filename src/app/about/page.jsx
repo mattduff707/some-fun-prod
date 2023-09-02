@@ -11,6 +11,7 @@ import curvePoint from "../../assets/curvePoint.png";
 import PageWrap from "../../components/PageWrap";
 import SpecialStar from "../../components/SpecialStar";
 import Highlight from "../../components/Highlight";
+import Heart from "../../components/icons/Heart";
 
 const Page = () => {
   return (
@@ -51,10 +52,10 @@ const Page = () => {
           <div className="relative z-[3] grid w-[45%] place-items-center min1000:order-1 max1000:absolute max1000:left-[-24px] max1000:top-[-24px] max500:left-[-12px] max500:top-[-12px] max400:left-[-24px]">
             <SpecialStar
               className="h-auto w-[320px] overflow-visible max1000:w-[240px] max600:w-[180px]"
-              fill={tokens.colors.seaweed}
+              fill={tokens.colors.pale}
               shadowColor={tokens.boxShadowColors.seawaterShadow}
             />
-            <p className="absolute left-[50%] top-[50%] origin-center translate-x-[-50%] translate-y-[-50%] rotate-[-12deg] whitespace-nowrap text-center text-lg font-bold text-pale max1000:text-base max600:text-[.70rem]">
+            <p className="absolute left-[50%] top-[50%] origin-center translate-x-[-50%] translate-y-[-50%] rotate-[-12deg] whitespace-nowrap text-center text-lg font-bold text-seaweed max1000:text-base max600:text-[.70rem]">
               Your new <br /> business pals!
             </p>
           </div>
@@ -76,9 +77,10 @@ const Page = () => {
           />
           <Box boxClass="border-seaweed py-4 text-seaweed bg-pale translate-y-[-80px] shadow-seawaterShadow max1000:absolute max1000:bottom-[20px] max1000:right-[50%] max1000:translate-x-[50%] max1000:translate-y-0">
             <Text className="min-w-[265px] max-w-[300px] px-4 text-center max1000:text-base">
-              Our biggest source of motivation, meet{" "}
-              <Highlight className="text-seaweed">Koia</Highlight> &{" "}
-              <Highlight className="text-seaweed">Taffy</Highlight>
+              Our biggest source of motivation, <br />
+              <Highlight className="text-seaweed">Taffy</Highlight> &{" "}
+              <Highlight className="text-seaweed">Koia</Highlight>{" "}
+              <Heart className="inline-block w-[18px] translate-y-[-2px]" />
             </Text>
           </Box>
         </div>
