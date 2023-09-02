@@ -99,11 +99,11 @@ module.exports = {
           "50%": { fontSize: "5rem" },
         },
         rotation: {
-          to: { transform: "rotate(360deg)" },
+          to: { transform: "rotate(-360deg)" },
         },
         shadowRotation: {
           to: {
-            transform: "rotate(360deg) rotate(-360deg)",
+            transform: "rotate(-360deg) rotate(-360deg)",
           },
         },
         fadeIn: {
