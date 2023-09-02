@@ -10,6 +10,7 @@ import dogs from "../../assets/dogs.jpg";
 import curvePoint from "../../assets/curvePoint.png";
 import PageWrap from "../../components/PageWrap";
 import SpecialStar from "../../components/SpecialStar";
+import Highlight from "../../components/Highlight";
 
 const Page = () => {
   return (
@@ -45,9 +46,9 @@ const Page = () => {
             height={905}
             src={usMaine}
             alt="Alissa and Matt at a restaurant table outdoors with their dog Koia in a carrier bag"
-            className="z-[2] mt-8 h-auto w-[55%] origin-top-left rotate-[4deg] self-end rounded-[30px] border-common border-seaweed shadow-box shadow-seawaterShadow max1000:w-[70%] max1000:origin-center max600:w-[80%] max400:w-[90%]"
+            className="z-[2] mt-8 h-auto w-[55%] origin-top-left rotate-[4deg] self-end rounded-[30px] border-common border-seaweed shadow-box shadow-seawaterShadow min1000:order-[2] max1000:w-[70%] max1000:origin-center max600:w-[80%] max400:w-[90%]"
           />
-          <div className="relative z-[3] grid w-[45%] place-items-center max1000:absolute max1000:left-[-24px] max1000:top-[-24px] max500:left-[-12px] max500:top-[-12px] max400:left-[-24px]">
+          <div className="relative z-[3] grid w-[45%] place-items-center min1000:order-1 max1000:absolute max1000:left-[-24px] max1000:top-[-24px] max500:left-[-12px] max500:top-[-12px] max400:left-[-24px]">
             <SpecialStar
               className="h-auto w-[320px] overflow-visible max1000:w-[240px] max600:w-[180px]"
               fill={tokens.colors.seaweed}
@@ -75,7 +76,9 @@ const Page = () => {
           />
           <Box boxClass="border-seaweed py-4 text-seaweed bg-pale translate-y-[-80px] shadow-seawaterShadow max1000:absolute max1000:bottom-[20px] max1000:right-[50%] max1000:translate-x-[50%] max1000:translate-y-0">
             <Text className="min-w-[265px] max-w-[300px] px-4 text-center max1000:text-base">
-              Our biggest source of motivation, meet Koia & Taffy
+              Our biggest source of motivation, meet{" "}
+              <Highlight className="text-seaweed">Koia</Highlight> &{" "}
+              <Highlight className="text-seaweed">Taffy</Highlight>
             </Text>
           </Box>
         </div>

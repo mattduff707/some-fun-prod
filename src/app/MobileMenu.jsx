@@ -18,7 +18,7 @@ const MobileMenu = () => {
         onClick={() => setMenuOpen(true)}
         className="hidden max1200:block"
       >
-        <Menu className="h-[40px] w-[40px] max600:h-[36px] max600:w-[36px]" />
+        <Menu className="h-[46px] w-[46px] max600:h-[40px] max600:w-[40px]" />
       </button>
       <div
         style={{
@@ -68,10 +68,10 @@ const MobileMenu = () => {
               activeColor={tokens.colors.seaweed}
             />
           </ul>
-          <ContactLink 
-          
-              onClick={() => setMenuOpen(false)}
-          className="max800:grid mt-2 hidden h-[60px] w-[172px] text-lg" />
+          <ContactLink
+            onClick={() => setMenuOpen(false)}
+            className="mt-2 hidden h-[60px] w-[172px] text-lg max800:grid"
+          />
           <button
             className="absolute left-[2%] top-[2%] p-[2px] max700:top-[1%] max500:left-[1px] max500:top-[1px]"
             onClick={() => setMenuOpen(false)}

@@ -7,13 +7,15 @@ const TextInput = ({ label, className, textarea, required, name, error }) => {
     <label className={`group flex flex-col gap-4 ${className}`}>
       {textarea ? (
         <textarea
+          style={{ transform: "translateZ(0)" }}
           name={name}
-          className="focus:shadow-paleShadow peer order-2 h-[180px] rounded-[38px] bg-offwhite p-4 px-6 text-lg text-seaweed outline outline-[3px] outline-seawater transition-all duration-[0.2s] focus:shadow-box focus:outline-burnt max600:h-[240px] max600:text-base"
+          className="peer order-2 h-[180px] rounded-[38px] border-[3px] bg-offwhite p-4 px-6 text-lg text-seaweed outline-none transition-all duration-[0.2s] focus:border-burnt focus:shadow-box focus:shadow-paleShadow max600:h-[240px] max600:text-base"
         />
       ) : (
         <input
           name={name}
-          className="focus:shadow-paleShadow peer order-2 h-[54px] rounded-[100px] bg-offwhite p-2 px-4 text-lg text-seaweed outline outline-[3px] outline-seawater transition-all duration-[0.2s] focus:shadow-box focus:outline-burnt max600:text-base"
+          style={{ transform: "translateZ(0)" }}
+          className="peer order-2 h-[54px] rounded-[100px] border-[3px] bg-offwhite p-2 px-4 text-lg text-seaweed outline-none transition-all duration-[0.2s] focus:border-burnt focus:shadow-box focus:shadow-paleShadow max600:text-base"
         />
       )}
       <span className="order-1 flex w-fit flex-col overflow-hidden text-lg font-bold text-seaweed">

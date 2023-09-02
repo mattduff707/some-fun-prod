@@ -41,7 +41,7 @@ const Header = () => {
           />
         </ul>
         <Image
-          className="absolute left-[50%] top-[50%] h-auto w-[164px] -translate-x-[50%] -translate-y-[50%] max600:hidden"
+          className="absolute left-[50%] top-[50%] h-auto w-[200px] -translate-x-[50%] -translate-y-[50%] max600:hidden"
           src={logoHeader}
           alt="some fun logo"
         />
@@ -56,10 +56,10 @@ const Header = () => {
             href="https://www.linkedin.com/company/some-fun-studio"
             target="_blank"
           >
-            <Linkedin className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[22px] max600:w-[22px]" />
+            <Linkedin className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[28px] max600:w-[28px]" />
           </a>
           <a href="https://www.instagram.com/somefunstudio" target="_blank">
-            <Insta className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[28px] max600:w-[28px]" />
+            <Insta className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[34px] max600:w-[34px]" />
           </a>
         </div>
       </nav>

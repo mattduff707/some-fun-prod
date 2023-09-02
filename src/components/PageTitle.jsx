@@ -36,7 +36,7 @@ const PageTitle = ({
           <text
             x="80"
             y="60"
-            className={`font-title stroke-[2px] font-sans text-[48px] font-black tracking-tighter ${titleClass}`}
+            className={`font-title transform-gpu stroke-[2px] font-sans text-[48px] font-black tracking-tighter ${titleClass}`}
           >
             {children}
           </text>
