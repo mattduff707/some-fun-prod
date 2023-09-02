@@ -38,7 +38,7 @@ const General = () => {
             </BoxBtn>
           </div>
         </Box>
-        <div className="isolate z-[2] mt-7 flex w-full justify-center max1000:flex-col max1000:items-center">
+        <div className="isolate z-[2] mt-7 flex w-full justify-center max1000:mt-0 max1000:flex-col max1000:items-center">
           <div className="relative translate-x-[16px] translate-y-[140px] max1000:z-[20] max1000:translate-y-[64px] max600:translate-y-[48px]">
             <div className="absolute bottom-[-40px] left-[-60px] z-10 max1000:bottom-[-48px] max600:left-[-48px]">
               <div className="relative">
