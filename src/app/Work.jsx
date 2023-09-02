@@ -22,13 +22,10 @@ const Work = () => {
           withPadding
           boxClass="p-12 pt-8 border-darkDijon mt-16 shadow-dijonShadow bg-pale"
         >
-          <Heading as="h2" className="mb-4 text-xl font-bold text-darkDijon">
-            Elevating Ideas, Crafting Experiences.
-          </Heading>
           <Text className="text-seaweed">
-            Collaborating with visionary clients, we turn ideas into remarkable
-            digital realities through our website design and development
-            prowess.
+            Whether it&#39;s website development, mobile app design or branding,
+            we strive to create engaging and innovative products that capture
+            the essence of each business we work with.
           </Text>
         </Box>
         <div className="mx-auto mt-16 flex w-full flex-wrap gap-6 max500:justify-center max500:gap-8">

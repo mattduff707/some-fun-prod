@@ -26,7 +26,7 @@ const About = () => {
           </Title>
           <div className="flex items-center max1000:flex-col max1000:gap-16">
             <Image
-              className="h-auto w-[50%] origin-top-right translate-y-12 rotate-[-7deg] rounded-[60px] border-[15px] border-seaweed shadow-box shadow-seawaterShadow max1000:w-full max1000:max-w-[480px] max1000:translate-y-0 max1000:rotate-0 max600:max-w-[400px]"
+              className="h-auto w-[50%] origin-top-right translate-y-12 rotate-[-7deg] rounded-[60px] border-[15px] border-seaweed shadow-box shadow-seawaterShadow max1000:w-full max1000:max-w-[480px] max1000:translate-y-0 max1000:rotate-0 max700:border-[12px] max600:max-w-[400px]"
               width={1001}
               height={1291}
               src={usPic}
