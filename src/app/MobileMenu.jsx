@@ -24,17 +24,17 @@ const MobileMenu = () => {
           left: menuOpen ? "0" : "-100%",
           opacity: menuOpen ? "1" : "0",
         }}
-        className="fixed top-0 z-[2] h-full min-h-[628px] w-full overflow-hidden bg-landingBg bg-landing transition-opacity duration-300 min1200:hidden"
+        className="fixed top-0 z-[2] h-[100vh] min-h-[628px] w-full overflow-hidden bg-landingBg bg-landing transition-opacity duration-300 min1200:hidden"
       >
         <div className="flex h-full w-full flex-col items-center justify-center gap-8">
           <Image
-            className="h-auto w-[380px] max600:w-[340px]"
+            className="h-auto w-[380px] max600:w-[320px]"
             src={logoHeader}
             alt="some fun logo"
           />
           <ul className="flex flex-col items-center gap-4 text-lg font-medium text-seaweed">
             <NavItem
-              className={"text-xxl"}
+              className={"text-xxl max600:text-xl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-seawater"
               text="HOME"
@@ -43,7 +43,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.seawater}
             />
             <NavItem
-              className={"text-xxl"}
+              className={"text-xxl max600:text-xl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-burntDark navItemServices"
               text="SERVICES"
@@ -51,7 +51,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.burntDark}
             />
             <NavItem
-              className={"text-xxl"}
+              className={"text-xxl max600:text-xl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-darkDijon"
               text="WORK"
@@ -59,7 +59,7 @@ const MobileMenu = () => {
               activeColor={tokens.colors.darkDijon}
             />
             <NavItem
-              className={"text-xxl"}
+              className={"text-xxl max600:text-xl"}
               onClick={() => setMenuOpen(false)}
               pathClass="stroke-seaweed"
               text="ABOUT"
