@@ -7,6 +7,7 @@ import Rainbow from "../components/Rainbow";
 import Image from "next/image";
 import logoHeader from "../assets/somefunLogoHeader.png";
 import Close from "../components/icons/Close";
+import ContactLink from "../components/ContactLink";
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -26,9 +27,9 @@ const MobileMenu = () => {
         }}
         className="fixed top-0 z-[2] h-[100vh] min-h-[628px] w-full overflow-hidden bg-landingBg bg-landing transition-opacity duration-300 min1200:hidden"
       >
-        <div className="flex h-full w-full flex-col items-center justify-center gap-8">
+        <div className="flex h-full w-full flex-col items-center justify-center gap-8 max400:gap-4">
           <Image
-            className="h-auto w-[380px] max600:w-[320px]"
+            className="h-auto w-[380px] max600:w-[320px] max400:w-[280px]"
             src={logoHeader}
             alt="some fun logo"
           />
@@ -67,6 +68,10 @@ const MobileMenu = () => {
               activeColor={tokens.colors.seaweed}
             />
           </ul>
+          <ContactLink 
+          
+              onClick={() => setMenuOpen(false)}
+          className="max800:grid mt-2 hidden h-[60px] w-[172px] text-lg" />
           <button
             className="absolute left-[2%] top-[2%] p-[2px] max700:top-[1%] max500:left-[1px] max500:top-[1px]"
             onClick={() => setMenuOpen(false)}

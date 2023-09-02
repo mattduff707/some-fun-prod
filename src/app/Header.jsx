@@ -7,6 +7,7 @@ import Linkedin from "../components/icons/linkedin";
 import Insta from "../components/icons/insta";
 import { tokens } from "../constants";
 import MobileMenu from "./MobileMenu";
+import ContactLink from "../components/ContactLink";
 const Header = () => {
   return (
     <header className="sticky top-0 z-40">
@@ -50,6 +51,7 @@ const Header = () => {
           alt="some fun logo"
         />
         <div className="flex items-center gap-4 max600:gap-2">
+          <ContactLink className={"max800:hidden"} />
           <a
             href="https://www.linkedin.com/company/some-fun-studio"
             target="_blank"

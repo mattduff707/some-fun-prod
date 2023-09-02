@@ -20,6 +20,8 @@ export const tokens = {
     seaweed: "#33524C",
     landingBg: "#FFFFFA",
     strokePinky: "#edc4ab",
+
+    offwhite: "#FFFFFA",
   },
   boxShadowColors: {
     seaweedShadow: "hsla(169deg, 32%, 13%, 0.36)",
