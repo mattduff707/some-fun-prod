@@ -8,7 +8,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="flex justify-center p-16">
+    <footer className="flex justify-center p-16 max600:px-6">
       <div className="text-md w-full max-w-constraint font-medium text-seaweed">
         <div className="w-full pb-16">
           <Image className="h-auto w-[240px]" src={logoHeader} alt="Some Fun" />
@@ -60,13 +60,13 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  className="group flex items-center gap-2 pb-4 pl-[1px]"
+                  className="group flex items-center gap-3 pb-4 pl-[1px]"
                   href="mailto:howdy@somefunstudio.com"
                   target="_blank"
                 >
                   <Email
                     className={
-                      "h-[34px] w-[34px] fill-seaweed transition-colors group-hover:fill-burntDark"
+                      "h-[32px] w-[32px] shrink-0 fill-seaweed transition-colors group-hover:fill-burntDark"
                     }
                   />{" "}
                   HOWDY@SOMEFUNSTUDIO.COM
