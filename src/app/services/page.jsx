@@ -51,12 +51,18 @@ const Services = () => {
             Our diverse clientele spans both small businesses and large
             enterprises. Whether you require ongoing design and development
             support or are interested in one-off projects, we&#39;re here to
-            meet your unique needs. Learn more about our process here!
+            meet your unique needs.
           </Text>
         </Box>
         <div className="mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 min900:flex-row min900:items-end min900:gap-0 ">
           <div className="flex flex-col items-center gap-6">
-            <Image src={designIcon} alt="" width={161} height={189} />
+            <Image
+              src={designIcon}
+              alt=""
+              width={161}
+              height={189}
+              className="max500:w-[130px]"
+            />
             <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
                 <FancyText
@@ -67,7 +73,13 @@ const Services = () => {
             </Box>
           </div>
           <div className="flex flex-col items-center gap-6">
-            <Image src={buildIcon} alt="" width={217} height={159} />
+            <Image
+              src={buildIcon}
+              alt=""
+              width={217}
+              height={159}
+              className="max500:w-[160px]"
+            />
 
             <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
@@ -76,7 +88,13 @@ const Services = () => {
             </Box>
           </div>
           <div className="flex flex-col items-center gap-6">
-            <Image src={brandingIcon} alt="" width={195} height={196} />
+            <Image
+              src={brandingIcon}
+              alt=""
+              width={195}
+              height={196}
+              className="max500:w-[150px]"
+            />
             <Box boxClass="bg-pale border-burnt shadow-fluffShadow py-1 px-8">
               <p className="translate-y-[-2px] text-lg font-black  text-seaweed">
                 <FancyText text={"BRANDING"} letterClass={"text-xxxl"} />

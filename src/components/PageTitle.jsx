@@ -21,13 +21,13 @@ const PageTitle = ({
         >
           <style>
             {`
-            .font {
+            .font-title {
                 filter: drop-shadow(0px 2px 1.25px rgba(0, 0, 0, 0.30));
             }
             `}
           </style>
           <Star
-            className={`${starClass}`}
+            className={`overflow-visible ${starClass}`}
             fill={starFill}
             x={x}
             y={y}
@@ -36,7 +36,7 @@ const PageTitle = ({
           <text
             x="80"
             y="60"
-            className={`font stroke-[2px] font-sans text-[48px] font-black tracking-tighter ${titleClass}`}
+            className={`font-title stroke-[2px] font-sans text-[48px] font-black tracking-tighter ${titleClass}`}
           >
             {children}
           </text>

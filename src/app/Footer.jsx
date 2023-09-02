@@ -19,7 +19,7 @@ const Footer = () => {
             <ul>
               <li className="pb-4">
                 <Link
-                  className="flex w-fit flex-col overflow-hidden after:h-[2px] after:w-full after:translate-x-[-100%] after:bg-seaweed after:transition-all after:duration-300 after:ease-in-out after:content-[''] hover:after:translate-x-0"
+                  className="flex w-fit flex-col overflow-hidden transition-colors hover:text-burntDark"
                   href="/"
                 >
                   HOME
@@ -27,7 +27,7 @@ const Footer = () => {
               </li>
               <li className="pb-4">
                 <Link
-                  className="flex w-fit flex-col overflow-hidden after:h-[2px] after:w-full after:translate-x-[-100%] after:bg-seaweed after:transition-all after:duration-300 after:ease-in-out after:content-[''] hover:after:translate-x-0"
+                  className="flex w-fit flex-col overflow-hidden transition-colors hover:text-burntDark"
                   href="/services"
                 >
                   SERVICES
@@ -35,7 +35,7 @@ const Footer = () => {
               </li>
               <li className="pb-4">
                 <Link
-                  className="flex w-fit flex-col overflow-hidden after:h-[2px] after:w-full after:translate-x-[-100%] after:bg-seaweed after:transition-all after:duration-300 after:ease-in-out after:content-[''] hover:after:translate-x-0"
+                  className="flex w-fit flex-col overflow-hidden transition-colors hover:text-burntDark"
                   href="/work"
                 >
                   WORK
@@ -43,7 +43,7 @@ const Footer = () => {
               </li>
               <li className="pb-4">
                 <Link
-                  className="flex w-fit flex-col overflow-hidden after:h-[2px] after:w-full after:translate-x-[-100%] after:bg-seaweed after:transition-all after:duration-300 after:ease-in-out after:content-[''] hover:after:translate-x-0"
+                  className="flex w-fit flex-col overflow-hidden transition-colors hover:text-burntDark"
                   href="/about"
                 >
                   ABOUT
@@ -60,13 +60,13 @@ const Footer = () => {
             <ul>
               <li>
                 <a
-                  className="group flex items-center gap-3 pb-4 pl-[2px]"
+                  className="group flex items-center gap-2 pb-4 pl-[1px]"
                   href="mailto:howdy@somefunstudio.com"
                   target="_blank"
                 >
                   <Email
                     className={
-                      "h-[30px] w-[30px] fill-seaweed stroke-seaweed transition-colors group-hover:fill-burntDark group-hover:stroke-burntDark"
+                      "h-[34px] w-[34px] fill-seaweed transition-colors group-hover:fill-burntDark"
                     }
                   />{" "}
                   HOWDY@SOMEFUNSTUDIO.COM
