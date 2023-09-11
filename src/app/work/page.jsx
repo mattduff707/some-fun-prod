@@ -17,6 +17,7 @@ const Page = () => {
           y={-8}
           starFill={tokens.colors.darkDijon}
           shadowColor={tokens.boxShadowColors.dijonShadow}
+          hiddenTitle={"Our Previous Work"}
         >
           WORK
         </PageTitle>

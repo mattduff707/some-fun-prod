@@ -8,6 +8,7 @@ import Image from "next/image";
 import logoHeader from "../assets/somefunLogoHeader.png";
 import Close from "../components/icons/Close";
 import ContactLink from "../components/ContactLink";
+import VisuallyHidden from "../components/VisuallyHidden";
 
 const MobileMenu = () => {
   const [menuOpen, setMenuOpen] = React.useState(false);
@@ -18,6 +19,7 @@ const MobileMenu = () => {
         onClick={() => setMenuOpen(true)}
         className="hidden max1200:block"
       >
+        <VisuallyHidden>{"Show Menu"}</VisuallyHidden>
         <Menu className="h-[46px] w-[46px] max600:h-[40px] max600:w-[40px]" />
       </button>
       <div
@@ -76,6 +78,7 @@ const MobileMenu = () => {
             className="absolute left-[2%] top-[2%] p-[2px] max700:top-[1%] max500:left-[1px] max500:top-[1px]"
             onClick={() => setMenuOpen(false)}
           >
+            <VisuallyHidden>{"Close menu"}</VisuallyHidden>
             <Close
               className={
                 "h-[48px] w-[48px] fill-seaweed transition-colors hover:fill-burntDark max700:h-[40px] max700:w-[40px]"

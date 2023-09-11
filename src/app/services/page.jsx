@@ -33,6 +33,7 @@ const Services = () => {
           x={70}
           y={-8}
           starFill={tokens.colors.burnt}
+          hiddenTitle={"The Services We Offer"}
         >
           SERVICES
         </PageTitle>

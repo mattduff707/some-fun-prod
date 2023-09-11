@@ -8,6 +8,7 @@ import Insta from "../components/icons/insta";
 import { tokens } from "../constants";
 import MobileMenu from "./MobileMenu";
 import ContactLink from "../components/ContactLink";
+import VisuallyHidden from "../components/VisuallyHidden";
 const Header = () => {
   return (
     <header className="sticky top-0 z-40">
@@ -56,9 +57,11 @@ const Header = () => {
             href="https://www.linkedin.com/company/some-fun-studio"
             target="_blank"
           >
+            <VisuallyHidden>{"linkedIn"}</VisuallyHidden>
             <Linkedin className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[28px] max600:w-[28px]" />
           </a>
           <a href="https://www.instagram.com/somefunstudio" target="_blank">
+            <VisuallyHidden>{"Instagram"}</VisuallyHidden>
             <Insta className="fill-seaweed transition-colors hover:fill-burntDark max600:h-[34px] max600:w-[34px]" />
           </a>
         </div>

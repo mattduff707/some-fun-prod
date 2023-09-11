@@ -18,6 +18,7 @@ const Page = () => {
           y={-8}
           starFill={tokens.colors.seawater}
           shadowColor={tokens.boxShadowColors.seaweedShadow}
+          hiddenTitle={"Contact us"}
         >
           CONTACT
         </PageTitle>

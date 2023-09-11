@@ -23,6 +23,7 @@ const Page = () => {
           y={-8}
           starFill={tokens.colors.seaweed}
           shadowColor={tokens.boxShadowColors.seaweedShadow}
+          hiddenTitle={"About Some Fun Studio"}
         >
           ABOUT
         </PageTitle>

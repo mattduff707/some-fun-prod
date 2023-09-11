@@ -1,5 +1,6 @@
 import React from "react";
 import Star from "./Star";
+import VisuallyHidden from "./VisuallyHidden";
 
 const PageTitle = ({
   titleClass,
@@ -9,9 +10,13 @@ const PageTitle = ({
   x,
   y,
   starFill,
+  hiddenTitle,
 }) => {
   return (
     <div className="mb-12 h-[99px] w-[640px] pt-12 max600:mb-4 max600:w-[480px]">
+      <VisuallyHidden>
+        <h1>{hiddenTitle}</h1>
+      </VisuallyHidden>
       <div className="relative inline-block w-full overflow-visible  pb-[12%]">
         <svg
           viewBox="0 0 440 100"
