@@ -16,6 +16,7 @@ const Carousel = ({
   return (
     <div
       className={`m-auto w-full overflow-hidden bg-seaweed py-2 ${wrapClass}`}
+      aria-hidden="true"
     >
       <div
         style={{ containerWidth }}

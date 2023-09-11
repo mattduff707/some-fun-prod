@@ -17,7 +17,10 @@ const PageTitle = ({
       <VisuallyHidden>
         <h1>{hiddenTitle}</h1>
       </VisuallyHidden>
-      <div className="relative inline-block w-full overflow-visible  pb-[12%]">
+      <div
+        aria-hidden="true"
+        className="relative inline-block w-full overflow-visible  pb-[12%]"
+      >
         <svg
           viewBox="0 0 440 100"
           xmlns="http://www.w3.org/2000/svg"

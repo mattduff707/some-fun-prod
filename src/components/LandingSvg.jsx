@@ -1,4 +1,5 @@
 import React from "react";
+import VisuallyHidden from "./VisuallyHidden";
 const font =
   "font-sans font-black text-[2.9rem] min1000:text-[1.5rem] fill-burntDark stroke-pale stroke-[2px] min1000:stroke-[1px] tracking-tighter";
 
@@ -7,11 +8,15 @@ const fun = `stroke-burntDark fill-pale font-sans font-black text-[4.0rem] min10
 const LandingSvg = () => {
   return (
     <div className="overflow-visible] relative inline-block w-full pb-[380px] align-middle min1000:translate-x-[-4%] min1000:pb-[44%] max1000:max-w-[500px] max600:pb-[320px] max500:pb-[260px] max400:pb-[170px]">
+      <VisuallyHidden>
+        <h1>Some Fun Studio. We Create some fun digital products!</h1>
+      </VisuallyHidden>
       <svg
         viewBox="0 0 308 120"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="xMinYMin meet"
         className="group absolute left-0 top-0 hidden cursor-default py-8 min1000:inline-block"
+        aria-hidden="true"
       >
         <style>
           {`
