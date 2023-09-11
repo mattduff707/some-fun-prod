@@ -5,6 +5,8 @@ import CoolButton from "./CoolButton";
 import Highlight from "./Highlight";
 import BoxBtn from "./BoxBtn";
 import LoadingStar from "./icons/LoadingStar";
+import Image from "next/image";
+import eggman from "../assets/eggman.png";
 
 const formNames = {
   name: "name",
@@ -22,6 +24,7 @@ const required = [formNames.name, formNames.email, formNames.description];
 const ContactForm = () => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
   const [incompleteRequired, setIncompleteRequired] = useState([]);
   const handleTryAgain = () => {
     setError(false);
@@ -63,7 +66,7 @@ const ContactForm = () => {
       setLoading(false);
       return;
     }
-
+    setSuccess(true);
     setIncompleteRequired([]);
     setLoading(false);
   };
@@ -94,6 +97,21 @@ const ContactForm = () => {
             TRY AGAIN
           </BoxBtn>
         </div>
+      </>
+    );
+  }
+
+  if (success) {
+    return (
+      <>
+        {/* <Image
+          src={eggman}
+          alt=""
+          className="mx-auto my-4 h-auto w-3/4 rounded-[40px] border-8 border-seawater"
+        /> */}
+        <p className="text-center text-xl font-bold text-seaweed">
+          Thank you for contacting us. We&#39;ll be in touch soon!
+        </p>
       </>
     );
   }
