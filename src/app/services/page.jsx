@@ -40,6 +40,7 @@ const Services = () => {
 
         <Box
           withPadding
+          withHeading
           boxClass=" border-burnt mt-16 shadow-fluffShadow bg-pale"
         >
           <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
@@ -105,6 +106,7 @@ const Services = () => {
         </div>
         <Box
           withPadding
+          withHeading
           boxClass="border-burnt mt-16 shadow-fluffShadow bg-pale relative max600:pb-10"
         >
           <Text className="text-seaweed">
@@ -199,7 +201,11 @@ const Services = () => {
           </p>
           <SimpleStar className="fill-burnt" />
         </div>
-        <Box withPadding boxClass=" border-burnt shadow-fluffShadow bg-pale">
+        <Box
+          withPadding
+          withHeading
+          boxClass=" border-burnt shadow-fluffShadow bg-pale"
+        >
           <Heading as="h2" className="mb-4 text-xl font-bold text-burntDark">
             Together we&#39;ll create something amazing.
           </Heading>

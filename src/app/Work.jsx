@@ -1,12 +1,9 @@
-import Box from "../components/Box";
-import Title from "../components/Title";
 import React from "react";
-import Heading from "../components/Heading";
-import Text from "../components/Text";
-import Link from "next/link";
-import Image from "next/image";
-import { projectData } from "../constants";
+import Box from "../components/Box";
 import ProjectLink from "../components/ProjectLink";
+import Text from "../components/Text";
+import Title from "../components/Title";
+import { projectData } from "../constants";
 
 const Work = () => {
   return (
@@ -20,7 +17,7 @@ const Work = () => {
         </Title>
         <Box
           withPadding
-          boxClass="p-12 pt-8 border-darkDijon mt-16 shadow-dijonShadow bg-pale"
+          boxClass=" border-darkDijon mt-16 shadow-dijonShadow bg-pale"
         >
           <Text className="text-seaweed">
             Whether it&#39;s website development, mobile app design or branding,

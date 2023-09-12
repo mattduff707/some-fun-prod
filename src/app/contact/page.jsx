@@ -24,6 +24,7 @@ const Page = () => {
         </PageTitle>
         <Box
           withPadding
+          withHeading
           boxClass="p-12 pt-8 border-seawater mt-16 shadow-seaweedShadow bg-pale"
         >
           <Heading as="h2" className="mb-4 text-xl font-bold text-seaweed">

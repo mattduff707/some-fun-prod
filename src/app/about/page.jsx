@@ -29,6 +29,7 @@ const Page = () => {
         </PageTitle>
         <Box
           withPadding
+          withHeading
           boxClass="p-12 pt-8 border-seaweed mt-16 shadow-seawaterShadow bg-pale"
         >
           <Heading as="h2" className="mb-4 text-xl font-bold text-seaweed">
@@ -86,6 +87,7 @@ const Page = () => {
           </Box>
         </div>
         <Box
+          withHeading
           withPadding
           boxClass=" border-seaweed mt-8 mb-12 shadow-seawaterShadow bg-pale max500:mt-4"
         >
@@ -118,6 +120,7 @@ const Page = () => {
         </Box>
         <Box
           withPadding
+          withHeading
           boxClass=" border-seaweed mt-8 shadow-seawaterShadow bg-pale max500:mt-4"
         >
           <Heading as="h2" className="mb-8 text-xl font-bold text-seaweed">

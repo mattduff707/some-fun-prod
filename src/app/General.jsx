@@ -18,6 +18,7 @@ const General = () => {
             "shadow-seaweedShadow border-seaweed bg-pale relative z-10 max1000:mb-20 max600:mb-16 z-[1] max600:pb-10"
           }
           withPadding
+          withHeading
         >
           <Heading as={"h2"} className="text-xl font-bold text-burntDark">
             Howdy and Welcome!
