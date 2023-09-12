@@ -1,16 +1,10 @@
-import Box from "../components/Box";
-import BoxBtn from "..//components/BoxBtn";
 import Image from "next/image";
-import React from "react";
-import alissaPic from "../assets/alissaPic.png";
-import mattPic from "../assets/mattPic.png";
-import Highlight from "../components/Highlight";
-import Star from "../components/Star";
-import Title from "../components/Title";
+import BoxBtn from "..//components/BoxBtn";
+import Box from "../components/Box";
 import usPic from "../assets/us.jpg";
-import Smiley from "../components/icons/Smiley";
 import Text from "../components/Text";
-import Heading from "../components/Heading";
+import Title from "../components/Title";
+import Smiley from "../components/icons/Smiley";
 
 const About = () => {
   return (
