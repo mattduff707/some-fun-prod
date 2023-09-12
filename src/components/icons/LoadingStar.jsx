@@ -8,7 +8,7 @@ function Icon() {
       height="119"
       fill="none"
       viewBox="0 0 119 119"
-      className="animate-spin"
+      className="motion-safe:animate-spin"
       style={{ animationDuration: "6s" }}
     >
       <path

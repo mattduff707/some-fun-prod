@@ -17,7 +17,7 @@ export default function Home() {
         <Carousel
           message="LET'S HAVE SOME FUN"
           width={296}
-          animation={"animate-slowSlideFooter"}
+          animation={"motion-safe:animate-slowSlideFooter"}
           itemClass={"text-lg"}
           wrapClass="py-3"
         />

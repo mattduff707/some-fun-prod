@@ -56,7 +56,7 @@ export default function RootLayout({ children }) {
           <Carousel
             message={"NOW BOOKING PROJECTS FOR 2023"}
             width={366}
-            animation={"animate-slowSlideHeader"}
+            animation={"motion-safe:animate-slowSlideHeader"}
           />
         </Link>
         <Header />
