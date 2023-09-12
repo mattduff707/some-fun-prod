@@ -23,6 +23,12 @@ import Arrow from "../../components/icons/Arrow.jsx";
 import SimpleStar from "../../components/icons/simpleStar.jsx";
 import Squiggle from "../../components/icons/Squiggle.jsx";
 
+export const metadata = {
+  title: "Our Services",
+  description:
+    "We offer a comprehensive suite of services to elevate your business, including expert website design and development, brand identity, illustrations, as well as creating distinctive logos.",
+};
+
 const Services = () => {
   return (
     <PageWrap className="bg-pinky">
@@ -48,12 +54,11 @@ const Services = () => {
           </Heading>
           <Text className="text-seaweed">
             We offer a comprehensive suite of services to elevate your business,
-            including expert website design and development, brand identity
-            development, illustrations, as well as creating distinctive logos.
-            Our diverse clientele spans both small businesses and large
-            enterprises. Whether you require ongoing design and development
-            support or are interested in one-off projects, we&#39;re here to
-            meet your unique needs.
+            including expert website design and development, brand identity,
+            illustrations, as well as creating distinctive logos. Our diverse
+            clientele spans both small businesses and large enterprises. Whether
+            you require ongoing design and development support or are interested
+            in one-off projects, we&#39;re here to meet your unique needs.
           </Text>
         </Box>
         <div className="mt-12 flex w-full flex-col items-center justify-between gap-12 px-12 min900:flex-row min900:items-end min900:gap-0 ">

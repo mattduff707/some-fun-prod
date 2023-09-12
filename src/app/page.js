@@ -5,6 +5,14 @@ import Work from "./Work";
 import About from "./About";
 import Carousel from "../components/Carousel";
 
+export const metadata = {
+  title: "Some Fun Studio",
+  description:
+    "Some Fun Studio is a boutique web design and development studio located in Seattle Washington. We specialize in branding, graphic design, and web development",
+  keywords:
+    "website,web design,web development,branding,graphic design,seattle,",
+};
+
 export default function Home() {
   return (
     <div className="relative isolate w-full max-w-[1920px]  bg-landingBg">

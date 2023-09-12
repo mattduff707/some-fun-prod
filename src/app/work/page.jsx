@@ -7,6 +7,13 @@ import Text from "../../components/Text";
 import { projectData, tokens } from "../../constants";
 import React from "react";
 
+export const metadata = {
+  title: "Our Work",
+  description: `Collaborating with visionary clients, we turn ideas into remarkable
+            digital realities through our website design and development
+            prowess.`,
+};
+
 const Page = () => {
   return (
     <PageWrap className=" bg-dijon">

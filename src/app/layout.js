@@ -41,11 +41,6 @@ const bavistage = localFont({
   variable: "--font-bavistage",
 });
 
-export const metadata = {
-  title: "Some Fun Studio",
-  description: "",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

@@ -13,6 +13,11 @@ import SpecialStar from "../../components/SpecialStar";
 import Highlight from "../../components/Highlight";
 import Heart from "../../components/icons/Heart";
 
+export const metadata = {
+  title: "About Us",
+  description: "Learn about Some Fun Studio and its founders, Alissa and Matt.",
+};
+
 const Page = () => {
   return (
     <PageWrap className="bg-seawater">

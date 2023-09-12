@@ -1,12 +1,16 @@
+import React from "react";
 import Box from "../../components/Box";
 import ContactForm from "../../components/ContactForm";
 import Heading from "../../components/Heading";
-import Highlight from "../../components/Highlight";
 import PageTitle from "../../components/PageTitle";
 import PageWrap from "../../components/PageWrap";
 import Text from "../../components/Text";
 import { tokens } from "../../constants";
-import React from "react";
+
+export const metadata = {
+  title: "Contact Us",
+  description: `Ready to Begin? We're excited to learn more about you and your business. A few quick questions will help us get started on crafting the perfect solution.`,
+};
 
 const Page = () => {
   return (
