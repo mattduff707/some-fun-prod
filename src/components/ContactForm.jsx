@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import TextInput from "./TextInput";
 import CoolButton from "./CoolButton";
 import Highlight from "./Highlight";
@@ -22,6 +22,7 @@ const formNames = {
 const required = [formNames.name, formNames.email, formNames.description];
 
 const ContactForm = () => {
+  const loadingRef = useRef(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
@@ -71,9 +72,18 @@ const ContactForm = () => {
     setLoading(false);
   };
 
+  useEffect(() => {
+    if (loading) {
+      loadingRef.current.scrollIntoView({ block: "center" });
+    }
+  }, [loading]);
+
   if (loading) {
     return (
-      <div className="grid w-full place-items-center pt-8 max600:pb-8">
+      <div
+        className="grid w-full place-items-center pt-8 max600:pb-8"
+        ref={loadingRef}
+      >
         <LoadingStar />
       </div>
     );
@@ -109,7 +119,7 @@ const ContactForm = () => {
           alt=""
           className="mx-auto my-4 h-auto w-3/4 rounded-[40px] border-8 border-seawater"
         /> */}
-        <p className="text-center text-xl font-bold text-seaweed">
+        <p className="text-center text-xl font-bold text-seaweed max600:text-lg">
           Thank you for contacting us. We&#39;ll be in touch soon!
         </p>
       </>
